@@ -19,19 +19,33 @@ typedef struct	s_sdl
 	SDL_Event	event;
 }				t_sdl;
 
+typedef struct	s_position
+{
+	double 		pos_x;
+	double 		pos_y;
+	double 		dir_x;
+	double 		dir_y;
+	double 		plane_x;
+	double 		plane_y;
+}				t_position;
+
 typedef struct	s_wolf
 {
 	t_sdl		sdl;
+	t_position	pos_info;
 	int 		**map;
 	int 		map_height;
 	int 		map_width;
 	bool		is_working;
+	bool		did_read_map;
 	char 		*error;
 }				t_wolf;
 
+int 	handle_error(t_wolf *params);
 void 	init_parameters(t_wolf *params);
 bool	read_map(t_wolf *params, char *input);
 int 	handle_map_error(t_wolf *params);
-int 	handle_args_error();
+bool	init_sdl(t_wolf *params);
+void	init_position(t_wolf *params);
 
 #endif
