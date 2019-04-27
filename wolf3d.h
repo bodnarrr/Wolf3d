@@ -27,6 +27,9 @@ typedef struct	s_position
 	double 		dir_y;
 	double 		plane_x;
 	double 		plane_y;
+	double 		camera_x;
+	double 		ray_dir_x;
+	double 		ray_dir_y;
 }				t_position;
 
 typedef struct	s_wolf
@@ -41,11 +44,14 @@ typedef struct	s_wolf
 	char 		*error;
 }				t_wolf;
 
+bool	check_arguments(int ac, t_wolf *params);
 int 	handle_error(t_wolf *params);
 void 	init_parameters(t_wolf *params);
 bool	read_map(t_wolf *params, char *input);
 int 	handle_map_error(t_wolf *params);
 bool	init_sdl(t_wolf *params);
 void	init_position(t_wolf *params);
+void	check_event(SDL_Event event, t_wolf *params);
+void	make_calculations(t_wolf *params);
 
 #endif
