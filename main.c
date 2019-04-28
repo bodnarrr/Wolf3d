@@ -13,11 +13,8 @@ int			main(int ac, char **av)
 	if (!init_sdl(&params))
 		return  handle_error(&params);
 	init_position(&params);
-
+	make_calculations(&params);
 	while (params.is_working && SDL_WaitEvent(&params.sdl.event))
-	{
 		check_event(params.sdl.event, &params);
-		make_calculations(&params);
-	}
 	return 0;
 }
