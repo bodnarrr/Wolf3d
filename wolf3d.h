@@ -69,5 +69,6 @@ bool	init_sdl(t_wolf *params);
 void	init_position(t_wolf *params);
 void	check_event(SDL_Event event, t_wolf *params);
 void	make_calculations(t_wolf *params);
+int 	height_for_column(int x, t_wolf *params);
 
 #endif
