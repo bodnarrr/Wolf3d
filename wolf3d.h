@@ -39,6 +39,7 @@ typedef struct	s_wolf
 	bool		is_working;
 	bool		did_read_map;
 	char 		*error;
+	int 		side;
 }				t_wolf;
 
 typedef struct	s_iteration
@@ -56,8 +57,6 @@ typedef struct	s_iteration
 	int 		step_x;
 	int 		step_y;
 	int 		hit;
-	int 		side;
-
 }				t_iterations;
 
 bool	check_arguments(int ac, t_wolf *params);

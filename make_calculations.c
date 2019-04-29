@@ -17,7 +17,9 @@ void	draw_column(int x, int height, t_wolf *params)
 	{
 		y = start + i;
 		position = x + (y * SCREEN_WIDTH);
-		((int*)params->sdl.surface->pixels)[position] = 0xFFFFFF;
+		((int*)params->sdl.surface->pixels)[position] = params->side == 0
+				? 0x404040
+				: 0xAFAFAF;
 	}
 }
 

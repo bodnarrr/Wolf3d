@@ -53,13 +53,13 @@ void	check_wall_hit(t_wolf *params, t_iterations *iter)
 		{
 			iter->side_dist_x += iter->delta_dist_x;
 			iter->map_x += iter->step_x;
-			iter->side = 0;
+			params->side = 0;
 		}
 		else
 		{
 			iter->side_dist_y += iter->delta_dist_y;
 			iter->map_y += iter->step_y;
-			iter->side = 1;
+			params->side = 1;
 		}
 		if (params->map[iter->map_y][iter->map_x] > 0)
 			iter->hit = 1;
@@ -68,7 +68,7 @@ void	check_wall_hit(t_wolf *params, t_iterations *iter)
 
 void	calc_wall_distance(t_wolf *params, t_iterations *iter)
 {
-	if (iter->side == 0)
+	if (params->side == 0)
 		iter->perp_wall_dist = ((double)iter->map_x - params->pos_info.pos_x
 				+ ((double)1 - (double)iter->step_x) / (double)2)
 				/ iter->ray_dir_x;
