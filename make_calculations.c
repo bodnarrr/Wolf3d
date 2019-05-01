@@ -36,12 +36,13 @@ void	make_calculations(t_wolf *params)
 	int	i;
 	int wall_height;
 
-	ft_bzero(params->sdl.surface->pixels, sizeof(int*)
+	ft_bzero(params->sdl.surface->pixels, sizeof(int)
 										* SCREEN_HEIGHT * SCREEN_WIDTH);
 	i = -1;
 	while (++i < SCREEN_WIDTH)
 	{
 		wall_height = height_for_column(i, params);
+		wall_height = wall_height < SCREEN_HEIGHT ? wall_height : SCREEN_HEIGHT;
 		draw_column(i, wall_height, params);
 //		ft_printf("i = %d, height = %d\n", i, wall_height);
 	}

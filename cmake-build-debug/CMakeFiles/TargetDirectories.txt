@@ -1,4 +1,3 @@
-/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles/sdlLibrary.dir
-/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir
+/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir

@@ -14,10 +14,11 @@
 # define WOLF3D_H
 
 # include "libftprintf/libftprintf.h"
-//# include "/usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL.h"
-//# include "/usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_events.h"
-# include "/Users/abodnar/homebrew/include/SDL2/SDL.h"
-# include "/Users/abodnar/homebrew/include/SDL2/SDL_events.h"
+# include "/usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL.h"
+# include "/usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_events.h"
+//# include "/Users/abodnar/homebrew/include/SDL2/SDL.h"
+//# include "/Users/abodnar/homebrew/include/SDL2/SDL_events.h"
+# include <math.h>
 
 # include <stdbool.h>
 
@@ -43,6 +44,8 @@ typedef struct	s_position
 	double 		dir_y;
 	double 		plane_x;
 	double 		plane_y;
+	double 		move_speed;
+	double		rotate_speed;
 }				t_position;
 
 typedef struct	s_wolf

@@ -5,401 +5,387 @@
 		<Option title="Wolf3D"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\homebrew\;CMake Files\..\..\..\homebrew\Cellar\;CMake Files\..\..\..\homebrew\Cellar\sdl2\;CMake Files\..\..\..\homebrew\Cellar\sdl2\source\;CMake Files\..\..\..\homebrew\Cellar\sdl2\source\tmp\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\SDL2\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug"/>
+				<Option working_dir="/Users/andrii/Develop/Wolf3D/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrii/Develop/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrii/Develop/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrii/Develop/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrii/Develop/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug"/>
+				<Option working_dir="/Users/andrii/Develop/Wolf3D/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrii/Develop/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrii/Develop/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrii/Develop/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrii/Develop/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug"/>
+				<Option working_dir="/Users/andrii/Develop/Wolf3D/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="sdlLibrary">
-				<Option working_dir="/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 sdlLibrary"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrii/Develop/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrii/Develop/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrii/Develop/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrii/Develop/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Wolf3D">
-				<Option output="/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Wolf3D" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug"/>
+				<Option output="/Users/andrii/Develop/Wolf3D/cmake-build-debug/Wolf3D" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/andrii/Develop/Wolf3D/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/abodnar/UNT/Projects/Wolf3D/."/>
-					<Add directory="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf"/>
-					<Add directory="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft"/>
-					<Add directory="/Users/abodnar/homebrew/Cellar/sdl2/include"/>
+					<Add directory="/Users/andrii/Develop/Wolf3D/."/>
+					<Add directory="/Users/andrii/Develop/Wolf3D/libftprintf"/>
+					<Add directory="/Users/andrii/Develop/Wolf3D/libftprintf/libft"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 Wolf3D"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrii/Develop/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 Wolf3D"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrii/Develop/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrii/Develop/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrii/Develop/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Wolf3D/fast">
-				<Option output="/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Wolf3D" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug"/>
+				<Option output="/Users/andrii/Develop/Wolf3D/cmake-build-debug/Wolf3D" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/andrii/Develop/Wolf3D/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/abodnar/UNT/Projects/Wolf3D/."/>
-					<Add directory="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf"/>
-					<Add directory="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft"/>
-					<Add directory="/Users/abodnar/homebrew/Cellar/sdl2/include"/>
+					<Add directory="/Users/andrii/Develop/Wolf3D/."/>
+					<Add directory="/Users/andrii/Develop/Wolf3D/libftprintf"/>
+					<Add directory="/Users/andrii/Develop/Wolf3D/libftprintf/libft"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 Wolf3D/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrii/Develop/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 Wolf3D/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrii/Develop/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrii/Develop/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrii/Develop/Wolf3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/check_arguments.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/check_arguments.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/check_event.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/check_event.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/handle_error.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/handle_error.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/handle_map_error.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/handle_map_error.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/height_for_column.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/height_for_column.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/init_params.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/init_params.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/init_position.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/init_position.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/init_sdl.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/init_sdl.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_apply_flags.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/ft_apply_flags.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_flags.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/ft_flags.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_get_numbers.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/ft_get_numbers.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_get_unichar.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/ft_get_unichar.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_get_unistr.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/ft_get_unistr.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_get_unsign_ptr_bin.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/ft_get_unsign_ptr_bin.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_parse_printf.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/ft_parse_printf.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_prec_for_nonstring.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/ft_prec_for_nonstring.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_prec_width.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/ft_prec_width.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_printf.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/ft_printf.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_printf_fd.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/ft_printf_fd.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_sharp_octal_hexa.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/ft_sharp_octal_hexa.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_typical_or_unicode_arg.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/ft_typical_or_unicode_arg.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_zero_nonptr.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/ft_zero_nonptr.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_atoi.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_atoi.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_bzero.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_bzero.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_isalnum.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_isalnum.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_isalpha.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_isalpha.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_isascii.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_isascii.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_isdigit.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_isdigit.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_isprint.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_isprint.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_itoa.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_itoa.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_itoa_base_sign.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_itoa_base_sign.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_itoa_base_unsign.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_itoa_base_unsign.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstadd.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstadd.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstdel.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstdel.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstdelone.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstdelone.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstiter.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstiter.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstmap.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstmap.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstnew.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstnew.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memalloc.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memalloc.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memccpy.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memccpy.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memchr.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memchr.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memcmp.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memcmp.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memcpy.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memcpy.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memdel.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memdel.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memmove.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memmove.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memset.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memset.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putchar.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putchar.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putchar_fd.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putchar_fd.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putendl.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putendl.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putendl_fd.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putendl_fd.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putnbr.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putnbr.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putnbr_fd.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putnbr_fd.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putstr.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putstr.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putstr_fd.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putstr_fd.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_sqrt.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_sqrt.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_str_allnum.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_str_allnum.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_str_clean_join.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_str_clean_join.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strcat.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strcat.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strchr.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strchr.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strclr.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strclr.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strcmp.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strcmp.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strcpy.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strcpy.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strdel.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strdel.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strdup.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strdup.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strequ.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strequ.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strgsort.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strgsort.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_striter.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_striter.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_striteri.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_striteri.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strjoin.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strjoin.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strlcat.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strlcat.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strlen.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strlen.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strmap.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strmap.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strmapi.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strmapi.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strncat.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strncat.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strncmp.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strncmp.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strncpy.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strncpy.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strnequ.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strnequ.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strnew.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strnew.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strnstr.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strnstr.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strnsymb.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strnsymb.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strrchr.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strrchr.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strrev.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strrev.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strsplit.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strsplit.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strstr.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strstr.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strsub.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strsub.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strswap.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strswap.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strtrim.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strtrim.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_swap.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_swap.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_tolower.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_tolower.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_toupper.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_toupper.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_word_count.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_word_count.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/get_next_line.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/get_next_line.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/libft.h">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/libft.h">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libftprintf.h">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libftprintf.h">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/main.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/main.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/make_calculations.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/make_calculations.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/read_map.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/read_map.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/route_events.c">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/route_events.c">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/wolf3d.h">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/wolf3d.h">
 			<Option target="Wolf3D"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/CMakeLists.txt">
+		<Unit filename="/Users/andrii/Develop/Wolf3D/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/abodnar/UNT/Projects/Wolf3D/../../../homebrew/Cellar/sdl2/source/tmp/sdlLibrary-cfgcmd.txt.in">
-			<Option virtualFolder="CMake Files\..\..\..\homebrew\Cellar\sdl2\source\tmp\"/>
+		<Unit filename="/Users/andrii/Develop/Wolf3D/../../../../usr/local/lib/cmake/SDL2/sdl2-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SDL2\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

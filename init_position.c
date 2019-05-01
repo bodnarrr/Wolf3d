@@ -20,4 +20,6 @@ void	init_position(t_wolf *params)
 	params->pos_info.dir_y = 0;
 	params->pos_info.plane_x = 0;
 	params->pos_info.plane_y = 0.66;
+	params->pos_info.move_speed = 0.069;
+	params->pos_info.rotate_speed = 0.039;
 }

@@ -38,7 +38,9 @@ bool	read_map(t_wolf *params, char *input)
 	{
 		j = -1;
 		while (++j < params->map_width)
-			params->map[i][j] = (i == 0 || j == 0 || i == j) ? 1 : 0;
+			params->map[i][j] = (i == 0 || i == params->map_height - 1
+					|| j == 0 || j == params->map_width - 1
+					|| i == j) ? 1 : 0;
 	}
 	i = -1;
 	while (++i < params->map_height)
