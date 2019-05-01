@@ -1,0 +1,10 @@
+/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/list_install_components.dir
+/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/rebuild_cache.dir
+/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/edit_cache.dir
+/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/install/strip.dir
+/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/install.dir
+/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/uninstall.dir
+/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/SDL2.dir
+/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/install/local.dir
+/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/SDL2-static.dir
+/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/SDL2main.dir
