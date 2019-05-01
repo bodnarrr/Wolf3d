@@ -14,7 +14,7 @@
 
 static void	calc_cam_ray(int x, t_wolf *params, t_iterations *iter)
 {
-	iter->camera_x = 2.0 * (double)x / (double)(SCREEN_WIDTH) - 1.0;
+	iter->camera_x = (double)2.0 * (double)x / (double)(SCREEN_WIDTH) - (double)1.0;
 	iter->ray_dir_x = params->pos_info.dir_x
 			+ params->pos_info.plane_x * iter->camera_x;
 	iter->ray_dir_y = params->pos_info.dir_y
@@ -36,7 +36,7 @@ static void	calc_axes(t_wolf *params, t_iterations *iter)
 	else
 	{
 		iter->step_x = 1;
-		iter->side_dist_x = ((double)iter->map_x + 1.0 - params->pos_info.pos_x)
+		iter->side_dist_x = ((double)iter->map_x + (double)1.0 - params->pos_info.pos_x)
 							* iter->delta_dist_x;
 	}
 	if (iter->ray_dir_y < 0)
@@ -48,7 +48,7 @@ static void	calc_axes(t_wolf *params, t_iterations *iter)
 	else
 	{
 		iter->step_y = 1;
-		iter->side_dist_y = ((double)iter->map_y + 1.0 - params->pos_info.pos_y)
+		iter->side_dist_y = ((double)iter->map_y + (double)1.0 - params->pos_info.pos_y)
 							* iter->delta_dist_y;
 	}
 }
@@ -78,11 +78,11 @@ void		calc_wall_distance(t_wolf *params, t_iterations *iter)
 {
 	if (params->side == 0)
 		iter->perp_wall_dist = ((double)iter->map_x - params->pos_info.pos_x
-				+ ((double)1 - (double)iter->step_x) / (double)2)
+				+ ((double)1.0 - (double)iter->step_x) / (double)2.0)
 				/ iter->ray_dir_x;
 	else
 		iter->perp_wall_dist = ((double)iter->map_y - params->pos_info.pos_y
-				+ ((double)1 - (double)iter->step_x) / (double)2)
+				+ ((double)1.0 - (double)iter->step_y) / (double)2.0)
 				/ iter->ray_dir_y;
 }
 

@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/andrii/Develop/Wolf3D/init_position.c
+wolf3d.h
+/Users/andrii/Develop/Wolf3D/wolf3d.h
+
 /Users/andrii/Develop/Wolf3D/libftprintf/libft/libft.h
 unistd.h
 -
@@ -29,14 +33,6 @@ inttypes.h
 -
 libft/libft.h
 /Users/andrii/Develop/Wolf3D/libftprintf/libft/libft.h
-
-/Users/andrii/Develop/Wolf3D/make_calculations.c
-wolf3d.h
-/Users/andrii/Develop/Wolf3D/wolf3d.h
-
-/Users/andrii/Develop/Wolf3D/route_events.c
-wolf3d.h
-/Users/andrii/Develop/Wolf3D/wolf3d.h
 
 /Users/andrii/Develop/Wolf3D/wolf3d.h
 libftprintf/libftprintf.h

@@ -29,6 +29,8 @@ static void	rotate(bool is_right, t_wolf *params)
 	params->pos_info.plane_x = params->pos_info.plane_x * cos(speed) - params->pos_info.plane_y * sin(speed);
 	params->pos_info.plane_y = old_plane_x * sin(speed) + params->pos_info.plane_y * cos(speed);
 
+	ft_printf("");
+
 	if (is_right)
 		ft_printf("~~~> RIGHT <~~~\n");
 	else
