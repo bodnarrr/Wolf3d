@@ -95,12 +95,13 @@ add_executable(Wolf3D
         libftprintf/ft_zero_nonptr.c
         libftprintf/libftprintf.h
         main.c
-        wolf3d.h init_params.c read_map.c handle_map_error.c init_position.c init_sdl.c handle_error.c check_arguments.c check_event.c make_calculations.c height_for_column.c)
+        wolf3d.h init_params.c read_map.c handle_map_error.c init_position.c init_sdl.c handle_error.c check_arguments.c check_event.c make_calculations.c height_for_column.c route_events.c)
 
 find_package(SDL2)
 
 if(NOT SDL2_FOUND)
-    set(SDL2_BIN_DIR "${CMAKE_CURRENT_BINARY_DIR}/sdl")
+#    set(SDL2_BIN_DIR "${CMAKE_CURRENT_BINARY_DIR}/sdl")
+    set(SDL2_BIN_DIR "/Users/abodnar/homebrew/Cellar/sdl2")
 
     include(ExternalProject)
     ExternalProject_Add(sdlLibrary
@@ -112,7 +113,7 @@ if(NOT SDL2_FOUND)
             GIT_PROGRESS ON)
 
     add_dependencies(Wolf3D sdlLibrary)
-    target_link_libraries(Wolf3D PRIVATE ${SDL2_BIN_DIR}/lib/somesortoflib.dylib)
+    target_link_libraries(Wolf3D PRIVATE ${SDL2_BIN_DIR}/2.0.9_1/lib/libSDL2.dylib)
     target_include_directories(Wolf3D PRIVATE ${SDL2_BIN_DIR}/include)
 else()
     target_link_libraries(Wolf3D PRIVATE ${SDL2_LIBRARIES})

@@ -1,16 +1,32 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   wolf3d.h                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: abodnar <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/05/01 17:46:15 by abodnar           #+#    #+#             */
+/*   Updated: 2019/05/01 17:46:16 by abodnar          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #ifndef WOLF3D_H
 # define WOLF3D_H
 
 # include "libftprintf/libftprintf.h"
-# include "/usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL.h"
-# include "/usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_events.h"
+//# include "/usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL.h"
+//# include "/usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_events.h"
+# include "/Users/abodnar/homebrew/include/SDL2/SDL.h"
+# include "/Users/abodnar/homebrew/include/SDL2/SDL_events.h"
+
 # include <stdbool.h>
 
 # define SCREEN_WIDTH 800
 # define SCREEN_HEIGHT 600
 # define MOCK_MAP_WIDTH 10
 # define MOCK_MAP_HEIGHT 10
+# define TRUE 1
+# define FALSE 0
 
 typedef struct	s_sdl
 {
@@ -69,5 +85,6 @@ void	init_position(t_wolf *params);
 void	check_event(SDL_Event event, t_wolf *params);
 void	make_calculations(t_wolf *params);
 int 	height_for_column(int x, t_wolf *params);
+void	route_events(SDL_Scancode code, t_wolf *params);
 
 #endif

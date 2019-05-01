@@ -1,12 +1,20 @@
-//
-// Created by Andrii Bodnar on 4/27/19.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   handle_error.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: abodnar <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/05/01 17:44:30 by abodnar           #+#    #+#             */
+/*   Updated: 2019/05/01 17:44:31 by abodnar          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "wolf3d.h"
 
-int 		handle_error(t_wolf *params)
+int	handle_error(t_wolf *params)
 {
-	int 	i;
+	int i;
 
 	ft_printf("%s\n", params->error);
 	ft_strdel(&params->error);

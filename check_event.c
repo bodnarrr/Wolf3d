@@ -1,16 +1,37 @@
-//
-// Created by Andrii Bodnar on 4/27/19.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   check_event.c                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: abodnar <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/05/01 17:43:29 by abodnar           #+#    #+#             */
+/*   Updated: 2019/05/01 17:43:30 by abodnar          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "wolf3d.h"
 
-void	check_event(SDL_Event event, t_wolf *params)
+static bool	is_active_event(SDL_Scancode code)
 {
+	if (code > 78 && code < 83)
+		return (TRUE);
+	return (FALSE);
+}
+
+void		check_event(SDL_Event event, t_wolf *params)
+{
+	SDL_Scancode	code;
+
+	code = event.key.keysym.scancode;
 	if ((event.type == SDL_QUIT) || (event.type == SDL_KEYDOWN
-		&& event.key.keysym.scancode == SDL_SCANCODE_ESCAPE))
+		&& code == SDL_SCANCODE_ESCAPE))
 		params->is_working = 0;
-	else if (event.type == SDL_MOUSEBUTTONDOWN)
+	else if (event.type == SDL_KEYDOWN
+				&& is_active_event(code))
+	{
+		route_events(code, params);
 		make_calculations(params);
-	else if (event.type == SDL_KEYDOWN)
-		ft_printf("Code = %d\n", event.key.keysym.scancode);
+	}
+
 }

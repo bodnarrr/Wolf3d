@@ -1,6 +1,14 @@
-//
-// Created by Andrii Bodnar on 4/29/19.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   height_for_column.c                                :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: abodnar <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/05/01 17:46:45 by abodnar           #+#    #+#             */
+/*   Updated: 2019/05/01 17:46:46 by abodnar          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "wolf3d.h"
 
@@ -45,7 +53,7 @@ static void	calc_axes(t_wolf *params, t_iterations *iter)
 	}
 }
 
-void	check_wall_hit(t_wolf *params, t_iterations *iter)
+void		check_wall_hit(t_wolf *params, t_iterations *iter)
 {
 	while (iter->hit == 0)
 	{
@@ -66,7 +74,7 @@ void	check_wall_hit(t_wolf *params, t_iterations *iter)
 	}
 }
 
-void	calc_wall_distance(t_wolf *params, t_iterations *iter)
+void		calc_wall_distance(t_wolf *params, t_iterations *iter)
 {
 	if (params->side == 0)
 		iter->perp_wall_dist = ((double)iter->map_x - params->pos_info.pos_x
@@ -78,7 +86,7 @@ void	calc_wall_distance(t_wolf *params, t_iterations *iter)
 				/ iter->ray_dir_y;
 }
 
-int 	height_for_column(int x, t_wolf *params)
+int			height_for_column(int x, t_wolf *params)
 {
 	t_iterations iter;
 

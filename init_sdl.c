@@ -1,14 +1,23 @@
-//
-// Created by Andrii Bodnar on 4/27/19.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   init_sdl.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: abodnar <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/05/01 17:45:27 by abodnar           #+#    #+#             */
+/*   Updated: 2019/05/01 17:45:28 by abodnar          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "wolf3d.h"
 
-bool	init_sdl(t_wolf *params) {
+bool	init_sdl(t_wolf *params)
+{
 	if (SDL_Init(SDL_INIT_VIDEO) < 0)
 	{
 		params->error = ft_strdup(SDL_GetError());
-		return (0);
+		return (FALSE);
 	}
 	params->sdl.window = SDL_CreateWindow("Wolf3d", SDL_WINDOWPOS_UNDEFINED,
 			SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH,
@@ -16,7 +25,8 @@ bool	init_sdl(t_wolf *params) {
 	if (!params->sdl.window)
 	{
 		params->error = ft_strdup(SDL_GetError());
-		return (0);
+		return (FALSE);
 	}
 	params->sdl.surface = SDL_GetWindowSurface(params->sdl.window);
+	return (TRUE);
 }

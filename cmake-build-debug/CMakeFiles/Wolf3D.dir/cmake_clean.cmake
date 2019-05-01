@@ -94,6 +94,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Wolf3D.dir/check_event.c.o"
   "CMakeFiles/Wolf3D.dir/make_calculations.c.o"
   "CMakeFiles/Wolf3D.dir/height_for_column.c.o"
+  "CMakeFiles/Wolf3D.dir/route_events.c.o"
   "Wolf3D.pdb"
   "Wolf3D"
 )

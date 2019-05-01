@@ -1,6 +1,14 @@
-//
-// Created by Andrii Bodnar on 4/24/19.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   read_map.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: abodnar <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/05/01 17:46:25 by abodnar           #+#    #+#             */
+/*   Updated: 2019/05/01 17:46:26 by abodnar          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "wolf3d.h"
 
@@ -14,7 +22,7 @@ bool	read_map(t_wolf *params, char *input)
 	if (fd < 0)
 	{
 		params->error = ft_strdup("Read map error text");
-		return (0);
+		return (FALSE);
 	}
 
 	params->map = (int**)ft_memalloc(sizeof(int*) * params->map_height);
@@ -42,6 +50,6 @@ bool	read_map(t_wolf *params, char *input)
 	}
 //	params->did_read_map = 1;
 	close(fd);
-	return (1);
+	return (TRUE);
 }
 
