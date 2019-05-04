@@ -98,6 +98,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub_chr.c.o"
   "CMakeFiles/Wolf3D.dir/parse_map.c.o"
   "CMakeFiles/Wolf3D.dir/add_perimeter_walls.c.o"
+  "CMakeFiles/Wolf3D.dir/set_wall_color.c.o"
   "Wolf3D.pdb"
   "Wolf3D"
 )

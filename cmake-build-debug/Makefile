@@ -2796,6 +2796,33 @@ route_events.c.s:
 	$(MAKE) -f CMakeFiles/Wolf3D.dir/build.make CMakeFiles/Wolf3D.dir/route_events.c.s
 .PHONY : route_events.c.s
 
+set_wall_color.o: set_wall_color.c.o
+
+.PHONY : set_wall_color.o
+
+# target to build an object file
+set_wall_color.c.o:
+	$(MAKE) -f CMakeFiles/Wolf3D.dir/build.make CMakeFiles/Wolf3D.dir/set_wall_color.c.o
+.PHONY : set_wall_color.c.o
+
+set_wall_color.i: set_wall_color.c.i
+
+.PHONY : set_wall_color.i
+
+# target to preprocess a source file
+set_wall_color.c.i:
+	$(MAKE) -f CMakeFiles/Wolf3D.dir/build.make CMakeFiles/Wolf3D.dir/set_wall_color.c.i
+.PHONY : set_wall_color.c.i
+
+set_wall_color.s: set_wall_color.c.s
+
+.PHONY : set_wall_color.s
+
+# target to generate assembly for a file
+set_wall_color.c.s:
+	$(MAKE) -f CMakeFiles/Wolf3D.dir/build.make CMakeFiles/Wolf3D.dir/set_wall_color.c.s
+.PHONY : set_wall_color.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -3102,6 +3129,9 @@ help:
 	@echo "... route_events.o"
 	@echo "... route_events.i"
 	@echo "... route_events.s"
+	@echo "... set_wall_color.o"
+	@echo "... set_wall_color.i"
+	@echo "... set_wall_color.s"
 .PHONY : help
 
 

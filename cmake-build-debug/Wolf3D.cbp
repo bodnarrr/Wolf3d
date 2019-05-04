@@ -387,6 +387,9 @@
 		<Unit filename="/Users/andrii/Develop/Wolf3D/route_events.c">
 			<Option target="Wolf3D"/>
 		</Unit>
+		<Unit filename="/Users/andrii/Develop/Wolf3D/set_wall_color.c">
+			<Option target="Wolf3D"/>
+		</Unit>
 		<Unit filename="/Users/andrii/Develop/Wolf3D/wolf3d.h">
 			<Option target="Wolf3D"/>
 		</Unit>

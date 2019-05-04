@@ -12,7 +12,7 @@
 
 #include "wolf3d.h"
 
-void	draw_column(int x, int height, t_wolf *params)
+static void	draw_column(int x, int height, t_wolf *params)
 {
 	int	start;
 	int *pixels;
@@ -30,13 +30,13 @@ void	draw_column(int x, int height, t_wolf *params)
 		else if (i > start + height)
 			pixels[pos] = GROUND;
 		else
-			pixels[pos] = params->side == 0
-				? 0x404040
-				: 0xAFAFAF;
+			pixels[pos] = params->side
+					? params->wall_color
+					: (params->wall_color & 0xFFBFFFFF);
 	}
 }
 
-void	make_calculations(t_wolf *params)
+void		make_calculations(t_wolf *params)
 {
 	int	i;
 	int wall_height;

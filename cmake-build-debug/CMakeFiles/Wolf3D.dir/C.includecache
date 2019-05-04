@@ -6,42 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/andrii/Develop/Wolf3D/add_perimeter_walls.c
-wolf3d.h
-/Users/andrii/Develop/Wolf3D/wolf3d.h
-
-/Users/andrii/Develop/Wolf3D/check_arguments.c
-wolf3d.h
-/Users/andrii/Develop/Wolf3D/wolf3d.h
-
-/Users/andrii/Develop/Wolf3D/check_event.c
-wolf3d.h
-/Users/andrii/Develop/Wolf3D/wolf3d.h
-
-/Users/andrii/Develop/Wolf3D/handle_error.c
-wolf3d.h
-/Users/andrii/Develop/Wolf3D/wolf3d.h
-
-/Users/andrii/Develop/Wolf3D/handle_map_error.c
-wolf3d.h
-/Users/andrii/Develop/Wolf3D/wolf3d.h
-
-/Users/andrii/Develop/Wolf3D/height_for_column.c
-wolf3d.h
-/Users/andrii/Develop/Wolf3D/wolf3d.h
-
-/Users/andrii/Develop/Wolf3D/init_params.c
-wolf3d.h
-/Users/andrii/Develop/Wolf3D/wolf3d.h
-
-/Users/andrii/Develop/Wolf3D/init_position.c
-wolf3d.h
-/Users/andrii/Develop/Wolf3D/wolf3d.h
-
-/Users/andrii/Develop/Wolf3D/init_sdl.c
-wolf3d.h
-/Users/andrii/Develop/Wolf3D/wolf3d.h
-
 /Users/andrii/Develop/Wolf3D/libftprintf/libft/libft.h
 unistd.h
 -
@@ -66,23 +30,7 @@ inttypes.h
 libft/libft.h
 /Users/andrii/Develop/Wolf3D/libftprintf/libft/libft.h
 
-/Users/andrii/Develop/Wolf3D/main.c
-wolf3d.h
-/Users/andrii/Develop/Wolf3D/wolf3d.h
-
 /Users/andrii/Develop/Wolf3D/make_calculations.c
-wolf3d.h
-/Users/andrii/Develop/Wolf3D/wolf3d.h
-
-/Users/andrii/Develop/Wolf3D/parse_map.c
-wolf3d.h
-/Users/andrii/Develop/Wolf3D/wolf3d.h
-
-/Users/andrii/Develop/Wolf3D/read_map.c
-wolf3d.h
-/Users/andrii/Develop/Wolf3D/wolf3d.h
-
-/Users/andrii/Develop/Wolf3D/route_events.c
 wolf3d.h
 /Users/andrii/Develop/Wolf3D/wolf3d.h
 

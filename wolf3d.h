@@ -73,6 +73,7 @@ typedef struct	s_wolf
 	bool		did_read_map;
 	char 		*error;
 	int 		side;
+	int 		wall_color;
 }				t_wolf;
 
 typedef struct	s_iteration
@@ -105,5 +106,6 @@ int 	height_for_column(int x, t_wolf *params);
 void	route_events(SDL_Scancode code, t_wolf *params);
 void	parse_map(t_wolf *params, char *raw_map);
 void	add_perimeter_walls(int **map);
+void	set_wall_color(t_wolf *params, int value);
 
 #endif

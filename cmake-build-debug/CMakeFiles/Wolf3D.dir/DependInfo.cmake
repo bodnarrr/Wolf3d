@@ -103,6 +103,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/andrii/Develop/Wolf3D/parse_map.c" "/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/parse_map.c.o"
   "/Users/andrii/Develop/Wolf3D/read_map.c" "/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/read_map.c.o"
   "/Users/andrii/Develop/Wolf3D/route_events.c" "/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/route_events.c.o"
+  "/Users/andrii/Develop/Wolf3D/set_wall_color.c" "/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/set_wall_color.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
