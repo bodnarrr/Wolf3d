@@ -1,0 +1,1989 @@
+The system is: Darwin - 17.4.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/3.14.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f3106/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f3106.dir/build.make CMakeFiles/cmTC_f3106.dir/build
+Building C object CMakeFiles/cmTC_f3106.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_f3106.dir/testCCompiler.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f3106
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3106.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f3106.dir/testCCompiler.c.o  -o cmTC_f3106 
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a3b25/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a3b25.dir/build.make CMakeFiles/cmTC_a3b25.dir/build
+Building C object CMakeFiles/cmTC_a3b25.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -v -Wl,-v -o CMakeFiles/cmTC_a3b25.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.13.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu penryn -target-linker-version 305 -v -dwarf-column-info -debugger-tuning=lldb -coverage-notes-file /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_a3b25.dir/CMakeCCompilerABI.c.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0 -fdebug-compilation-dir /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fobjc-runtime=macosx-10.13.0 -fencode-extended-block-signature -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_a3b25.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+clang -cc1 version 9.0.0 (clang-900.0.39.2) default target x86_64-apple-darwin17.4.0
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_a3b25
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3b25.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_a3b25.dir/CMakeCCompilerABI.c.o  -o cmTC_a3b25 
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_a3b25 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a3b25.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-305
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/local/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_a3b25/fast ]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a3b25.dir/build.make CMakeFiles/cmTC_a3b25.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_a3b25.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -v -Wl,-v -o CMakeFiles/cmTC_a3b25.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.39.2)]
+  ignore line: [Target: x86_64-apple-darwin17.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.13.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu penryn -target-linker-version 305 -v -dwarf-column-info -debugger-tuning=lldb -coverage-notes-file /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_a3b25.dir/CMakeCCompilerABI.c.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0 -fdebug-compilation-dir /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fobjc-runtime=macosx-10.13.0 -fencode-extended-block-signature -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_a3b25.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 9.0.0 (clang-900.0.39.2) default target x86_64-apple-darwin17.4.0]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /usr/include]
+  ignore line: [ /System/Library/Frameworks (framework directory)]
+  ignore line: [ /Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_a3b25]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3b25.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_a3b25.dir/CMakeCCompilerABI.c.o  -o cmTC_a3b25 ]
+  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.39.2)]
+  ignore line: [Target: x86_64-apple-darwin17.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_a3b25 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a3b25.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a3b25] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_a3b25.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_110ee/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_110ee.dir/build.make CMakeFiles/cmTC_110ee.dir/build
+Building C object CMakeFiles/cmTC_110ee.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_110ee.dir/feature_tests.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_110ee
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_110ee.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_110ee.dir/feature_tests.c.o  -o cmTC_110ee 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4b014/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4b014.dir/build.make CMakeFiles/cmTC_4b014.dir/build
+Building C object CMakeFiles/cmTC_4b014.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_4b014.dir/feature_tests.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4b014
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b014.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4b014.dir/feature_tests.c.o  -o cmTC_4b014 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7d7c8/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7d7c8.dir/build.make CMakeFiles/cmTC_7d7c8.dir/build
+Building C object CMakeFiles/cmTC_7d7c8.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_7d7c8.dir/feature_tests.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7d7c8
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d7c8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7d7c8.dir/feature_tests.c.o  -o cmTC_7d7c8 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test HAVE_GCC_WALL succeeded with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_45763/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_45763.dir/build.make CMakeFiles/cmTC_45763.dir/build
+Building C object CMakeFiles/cmTC_45763.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_GCC_WALL   -Wall -o CMakeFiles/cmTC_45763.dir/src.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_45763
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45763.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_GCC_WALL -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_45763.dir/src.c.o  -o cmTC_45763 
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_de33d/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_de33d.dir/build.make CMakeFiles/cmTC_de33d.dir/build
+Building C object CMakeFiles/cmTC_de33d.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_GCC_WDECLARATION_AFTER_STATEMENT   -Wdeclaration-after-statement -o CMakeFiles/cmTC_de33d.dir/src.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_de33d
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de33d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_GCC_WDECLARATION_AFTER_STATEMENT -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_de33d.dir/src.c.o  -o cmTC_de33d 
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dd8a2/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_dd8a2.dir/build.make CMakeFiles/cmTC_dd8a2.dir/build
+Building C object CMakeFiles/cmTC_dd8a2.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT   -Werror=declaration-after-statement -o CMakeFiles/cmTC_dd8a2.dir/src.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_dd8a2
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd8a2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dd8a2.dir/src.c.o  -o cmTC_dd8a2 
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_ATOMICS succeeded with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_52bec/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_52bec.dir/build.make CMakeFiles/cmTC_52bec.dir/build
+Building C object CMakeFiles/cmTC_52bec.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_GCC_ATOMICS   -o CMakeFiles/cmTC_52bec.dir/src.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_52bec
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52bec.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_GCC_ATOMICS -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_52bec.dir/src.c.o  -o cmTC_52bec 
+
+Source file was:
+int main(int argc, char **argv) {
+        int a;
+        void *x, *y, *z;
+        __sync_lock_test_and_set(&a, 4);
+        __sync_lock_test_and_set(&x, y);
+        __sync_fetch_and_add(&a, 1);
+        __sync_bool_compare_and_swap(&a, 5, 10);
+        __sync_bool_compare_and_swap(&x, y, z); }
+Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY succeeded with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ab9ee/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ab9ee.dir/build.make CMakeFiles/cmTC_ab9ee.dir/build
+Building C object CMakeFiles/cmTC_ab9ee.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_GCC_FVISIBILITY -fvisibility=hidden -Werror   -o CMakeFiles/cmTC_ab9ee.dir/src.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ab9ee
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab9ee.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_GCC_FVISIBILITY -fvisibility=hidden -Werror -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ab9ee.dir/src.c.o  -o cmTC_ab9ee 
+
+Source file was:
+
+      #if !defined(__GNUC__) || __GNUC__ < 4
+      #error SDL only uses visibility attributes in GCC 4 or newer
+      #endif
+      int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_GCC_WSHADOW succeeded with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bba70/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bba70.dir/build.make CMakeFiles/cmTC_bba70.dir/build
+Building C object CMakeFiles/cmTC_bba70.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_GCC_WSHADOW   -Wshadow -o CMakeFiles/cmTC_bba70.dir/src.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bba70
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bba70.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_GCC_WSHADOW -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bba70.dir/src.c.o  -o cmTC_bba70 
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_MMX succeeded with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e7db3/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e7db3.dir/build.make CMakeFiles/cmTC_e7db3.dir/build
+Building C object CMakeFiles/cmTC_e7db3.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_MMX -mmmx   -o CMakeFiles/cmTC_e7db3.dir/src.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e7db3
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7db3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_MMX -mmmx -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e7db3.dir/src.c.o  -o cmTC_e7db3 
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <mmintrin.h>
+          #endif
+          #else
+          #include <mmintrin.h>
+          #endif
+          #ifndef __MMX__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_3DNOW succeeded with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_75b4b/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_75b4b.dir/build.make CMakeFiles/cmTC_75b4b.dir/build
+Building C object CMakeFiles/cmTC_75b4b.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_3DNOW -m3dnow   -o CMakeFiles/cmTC_75b4b.dir/src.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_75b4b
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75b4b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_3DNOW -m3dnow -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_75b4b.dir/src.c.o  -o cmTC_75b4b 
+
+Source file was:
+
+          #include <mm3dnow.h>
+          #ifndef __3dNOW__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) {
+            void *p = 0;
+            _m_prefetch(p);
+          }
+Performing C SOURCE FILE Test HAVE_SSE succeeded with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4cb40/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4cb40.dir/build.make CMakeFiles/cmTC_4cb40.dir/build
+Building C object CMakeFiles/cmTC_4cb40.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_SSE -msse   -o CMakeFiles/cmTC_4cb40.dir/src.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4cb40
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cb40.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_SSE -msse -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4cb40.dir/src.c.o  -o cmTC_4cb40 
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #ifndef __SSE__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_SSE2 succeeded with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_390ec/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_390ec.dir/build.make CMakeFiles/cmTC_390ec.dir/build
+Building C object CMakeFiles/cmTC_390ec.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_SSE2 -msse2   -o CMakeFiles/cmTC_390ec.dir/src.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_390ec
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_390ec.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_SSE2 -msse2 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_390ec.dir/src.c.o  -o cmTC_390ec 
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <emmintrin.h>
+          #endif
+          #else
+          #include <emmintrin.h>
+          #endif
+          #ifndef __SSE2__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_SSE3 succeeded with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0757b/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0757b.dir/build.make CMakeFiles/cmTC_0757b.dir/build
+Building C object CMakeFiles/cmTC_0757b.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_SSE3 -msse3   -o CMakeFiles/cmTC_0757b.dir/src.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0757b
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0757b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_SSE3 -msse3 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0757b.dir/src.c.o  -o cmTC_0757b 
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <pmmintrin.h>
+          #endif
+          #else
+          #include <pmmintrin.h>
+          #endif
+          #ifndef __SSE3__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Determining if the include file immintrin.h exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4d966/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4d966.dir/build.make CMakeFiles/cmTC_4d966.dir/build
+Building C object CMakeFiles/cmTC_4d966.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos    -o CMakeFiles/cmTC_4d966.dir/CheckIncludeFile.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4d966
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d966.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4d966.dir/CheckIncludeFile.c.o  -o cmTC_4d966 
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_86b37/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_86b37.dir/build.make CMakeFiles/cmTC_86b37.dir/build
+Building C object CMakeFiles/cmTC_86b37.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos    -o CMakeFiles/cmTC_86b37.dir/CheckIncludeFile.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_86b37
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86b37.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_86b37.dir/CheckIncludeFile.c.o  -o cmTC_86b37 
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7c8b7/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7c8b7.dir/build.make CMakeFiles/cmTC_7c8b7.dir/build
+Building C object CMakeFiles/cmTC_7c8b7.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos    -o CMakeFiles/cmTC_7c8b7.dir/CheckIncludeFile.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7c8b7
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c8b7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7c8b7.dir/CheckIncludeFile.c.o  -o cmTC_7c8b7 
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_60ad4/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_60ad4.dir/build.make CMakeFiles/cmTC_60ad4.dir/build
+Building C object CMakeFiles/cmTC_60ad4.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos    -o CMakeFiles/cmTC_60ad4.dir/CheckIncludeFile.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_60ad4
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60ad4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_60ad4.dir/CheckIncludeFile.c.o  -o cmTC_60ad4 
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7b16f/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7b16f.dir/build.make CMakeFiles/cmTC_7b16f.dir/build
+Building C object CMakeFiles/cmTC_7b16f.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos    -o CMakeFiles/cmTC_7b16f.dir/CheckIncludeFile.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7b16f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b16f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7b16f.dir/CheckIncludeFile.c.o  -o cmTC_7b16f 
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_df673/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_df673.dir/build.make CMakeFiles/cmTC_df673.dir/build
+Building C object CMakeFiles/cmTC_df673.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos    -o CMakeFiles/cmTC_df673.dir/CheckIncludeFile.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_df673
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df673.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_df673.dir/CheckIncludeFile.c.o  -o cmTC_df673 
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_47e43/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_47e43.dir/build.make CMakeFiles/cmTC_47e43.dir/build
+Building C object CMakeFiles/cmTC_47e43.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos    -o CMakeFiles/cmTC_47e43.dir/CheckIncludeFile.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_47e43
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47e43.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_47e43.dir/CheckIncludeFile.c.o  -o cmTC_47e43 
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_457fb/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_457fb.dir/build.make CMakeFiles/cmTC_457fb.dir/build
+Building C object CMakeFiles/cmTC_457fb.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos    -o CMakeFiles/cmTC_457fb.dir/CheckIncludeFile.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_457fb
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_457fb.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_457fb.dir/CheckIncludeFile.c.o  -o cmTC_457fb 
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_898c5/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_898c5.dir/build.make CMakeFiles/cmTC_898c5.dir/build
+Building C object CMakeFiles/cmTC_898c5.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos    -o CMakeFiles/cmTC_898c5.dir/CheckIncludeFile.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_898c5
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_898c5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_898c5.dir/CheckIncludeFile.c.o  -o cmTC_898c5 
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_778b1/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_778b1.dir/build.make CMakeFiles/cmTC_778b1.dir/build
+Building C object CMakeFiles/cmTC_778b1.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos    -o CMakeFiles/cmTC_778b1.dir/CheckIncludeFile.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_778b1
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_778b1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_778b1.dir/CheckIncludeFile.c.o  -o cmTC_778b1 
+
+
+Determining if the include file wchar.h exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0065d/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0065d.dir/build.make CMakeFiles/cmTC_0065d.dir/build
+Building C object CMakeFiles/cmTC_0065d.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos    -o CMakeFiles/cmTC_0065d.dir/CheckIncludeFile.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0065d
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0065d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0065d.dir/CheckIncludeFile.c.o  -o cmTC_0065d 
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_888eb/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_888eb.dir/build.make CMakeFiles/cmTC_888eb.dir/build
+Building C object CMakeFiles/cmTC_888eb.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos    -o CMakeFiles/cmTC_888eb.dir/CheckIncludeFile.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_888eb
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_888eb.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_888eb.dir/CheckIncludeFile.c.o  -o cmTC_888eb 
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2f50b/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2f50b.dir/build.make CMakeFiles/cmTC_2f50b.dir/build
+Building C object CMakeFiles/cmTC_2f50b.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos    -o CMakeFiles/cmTC_2f50b.dir/CheckIncludeFile.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2f50b
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f50b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2f50b.dir/CheckIncludeFile.c.o  -o cmTC_2f50b 
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8adf9/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8adf9.dir/build.make CMakeFiles/cmTC_8adf9.dir/build
+Building C object CMakeFiles/cmTC_8adf9.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos    -o CMakeFiles/cmTC_8adf9.dir/CheckIncludeFile.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8adf9
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8adf9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8adf9.dir/CheckIncludeFile.c.o  -o cmTC_8adf9 
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6b59d/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6b59d.dir/build.make CMakeFiles/cmTC_6b59d.dir/build
+Building C object CMakeFiles/cmTC_6b59d.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos    -o CMakeFiles/cmTC_6b59d.dir/CheckIncludeFile.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6b59d
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b59d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6b59d.dir/CheckIncludeFile.c.o  -o cmTC_6b59d 
+
+
+Determining if the include file iconv.h exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a960a/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a960a.dir/build.make CMakeFiles/cmTC_a960a.dir/build
+Building C object CMakeFiles/cmTC_a960a.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos    -o CMakeFiles/cmTC_a960a.dir/CheckIncludeFile.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a960a
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a960a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a960a.dir/CheckIncludeFile.c.o  -o cmTC_a960a 
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ec71c/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ec71c.dir/build.make CMakeFiles/cmTC_ec71c.dir/build
+Building C object CMakeFiles/cmTC_ec71c.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos    -o CMakeFiles/cmTC_ec71c.dir/CheckIncludeFile.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ec71c
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec71c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ec71c.dir/CheckIncludeFile.c.o  -o cmTC_ec71c 
+
+
+Determining if the include file libunwind.h exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_71d1d/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_71d1d.dir/build.make CMakeFiles/cmTC_71d1d.dir/build
+Building C object CMakeFiles/cmTC_71d1d.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos    -o CMakeFiles/cmTC_71d1d.dir/CheckIncludeFile.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_71d1d
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71d1d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_71d1d.dir/CheckIncludeFile.c.o  -o cmTC_71d1d 
+
+
+Determining if files dlfcn.h;stdint.h;stddef.h;inttypes.h;stdlib.h;strings.h;string.h;float.h exist passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a1ed5/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a1ed5.dir/build.make CMakeFiles/cmTC_a1ed5.dir/build
+Building C object CMakeFiles/cmTC_a1ed5.dir/STDC_HEADERS.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos    -o CMakeFiles/cmTC_a1ed5.dir/STDC_HEADERS.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CheckIncludeFiles/STDC_HEADERS.c
+Linking C executable cmTC_a1ed5
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1ed5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a1ed5.dir/STDC_HEADERS.c.o  -o cmTC_a1ed5 
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c2a3d/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c2a3d.dir/build.make CMakeFiles/cmTC_c2a3d.dir/build
+Building C object CMakeFiles/cmTC_c2a3d.dir/SIZEOF_SIZE_T.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos    -o CMakeFiles/cmTC_c2a3d.dir/SIZEOF_SIZE_T.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_c2a3d
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2a3d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c2a3d.dir/SIZEOF_SIZE_T.c.o  -o cmTC_c2a3d 
+
+
+Determining if the M_PI exist passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_56383/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_56383.dir/build.make CMakeFiles/cmTC_56383.dir/build
+Building C object CMakeFiles/cmTC_56383.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos    -o CMakeFiles/cmTC_56383.dir/CheckSymbolExists.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_56383
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56383.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_56383.dir/CheckSymbolExists.c.o  -o cmTC_56383 
+
+File /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef M_PI
+  return ((int*)(&M_PI))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_MPROTECT succeeded with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6fe9c/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6fe9c.dir/build.make CMakeFiles/cmTC_6fe9c.dir/build
+Building C object CMakeFiles/cmTC_6fe9c.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_MPROTECT   -o CMakeFiles/cmTC_6fe9c.dir/src.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6fe9c
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fe9c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_MPROTECT -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6fe9c.dir/src.c.o  -o cmTC_6fe9c 
+
+Source file was:
+#include <sys/types.h>
+                             #include <sys/mman.h>
+                             int main() { }
+Determining if the function strtod exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_28d73/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_28d73.dir/build.make CMakeFiles/cmTC_28d73.dir/build
+Building C object CMakeFiles/cmTC_28d73.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtod   -o CMakeFiles/cmTC_28d73.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_28d73
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28d73.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtod -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_28d73.dir/CheckFunctionExists.c.o  -o cmTC_28d73 
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0aa41/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0aa41.dir/build.make CMakeFiles/cmTC_0aa41.dir/build
+Building C object CMakeFiles/cmTC_0aa41.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=malloc   -o CMakeFiles/cmTC_0aa41.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'malloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'malloc' is a builtin with type 'void *(unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+1 warning generated.
+Linking C executable cmTC_0aa41
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0aa41.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=malloc -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0aa41.dir/CheckFunctionExists.c.o  -o cmTC_0aa41 
+
+
+Determining if the function calloc exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1738e/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1738e.dir/build.make CMakeFiles/cmTC_1738e.dir/build
+Building C object CMakeFiles/cmTC_1738e.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=calloc   -o CMakeFiles/cmTC_1738e.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'calloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS calloc
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'calloc' is a builtin with type 'void *(unsigned long, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS calloc
+                              ^
+1 warning generated.
+Linking C executable cmTC_1738e
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1738e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=calloc -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1738e.dir/CheckFunctionExists.c.o  -o cmTC_1738e 
+
+
+Determining if the function realloc exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a5831/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a5831.dir/build.make CMakeFiles/cmTC_a5831.dir/build
+Building C object CMakeFiles/cmTC_a5831.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=realloc   -o CMakeFiles/cmTC_a5831.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'realloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS realloc
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'realloc' is a builtin with type 'void *(void *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS realloc
+                              ^
+1 warning generated.
+Linking C executable cmTC_a5831
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5831.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=realloc -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a5831.dir/CheckFunctionExists.c.o  -o cmTC_a5831 
+
+
+Determining if the function free exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8cd00/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8cd00.dir/build.make CMakeFiles/cmTC_8cd00.dir/build
+Building C object CMakeFiles/cmTC_8cd00.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=free   -o CMakeFiles/cmTC_8cd00.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8cd00
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cd00.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=free -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8cd00.dir/CheckFunctionExists.c.o  -o cmTC_8cd00 
+
+
+Determining if the function getenv exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4be5b/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4be5b.dir/build.make CMakeFiles/cmTC_4be5b.dir/build
+Building C object CMakeFiles/cmTC_4be5b.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=getenv   -o CMakeFiles/cmTC_4be5b.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4be5b
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4be5b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=getenv -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4be5b.dir/CheckFunctionExists.c.o  -o cmTC_4be5b 
+
+
+Determining if the function setenv exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_da73f/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_da73f.dir/build.make CMakeFiles/cmTC_da73f.dir/build
+Building C object CMakeFiles/cmTC_da73f.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=setenv   -o CMakeFiles/cmTC_da73f.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_da73f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da73f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=setenv -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_da73f.dir/CheckFunctionExists.c.o  -o cmTC_da73f 
+
+
+Determining if the function putenv exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4782f/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4782f.dir/build.make CMakeFiles/cmTC_4782f.dir/build
+Building C object CMakeFiles/cmTC_4782f.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=putenv   -o CMakeFiles/cmTC_4782f.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4782f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4782f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=putenv -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4782f.dir/CheckFunctionExists.c.o  -o cmTC_4782f 
+
+
+Determining if the function unsetenv exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e9a99/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e9a99.dir/build.make CMakeFiles/cmTC_e9a99.dir/build
+Building C object CMakeFiles/cmTC_e9a99.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=unsetenv   -o CMakeFiles/cmTC_e9a99.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e9a99
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9a99.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=unsetenv -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e9a99.dir/CheckFunctionExists.c.o  -o cmTC_e9a99 
+
+
+Determining if the function qsort exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9ad4f/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9ad4f.dir/build.make CMakeFiles/cmTC_9ad4f.dir/build
+Building C object CMakeFiles/cmTC_9ad4f.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=qsort   -o CMakeFiles/cmTC_9ad4f.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9ad4f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ad4f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=qsort -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9ad4f.dir/CheckFunctionExists.c.o  -o cmTC_9ad4f 
+
+
+Determining if the function abs exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6cb54/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6cb54.dir/build.make CMakeFiles/cmTC_6cb54.dir/build
+Building C object CMakeFiles/cmTC_6cb54.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=abs   -o CMakeFiles/cmTC_6cb54.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'abs' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS abs
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'abs' is a builtin with type 'int (int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS abs
+                              ^
+1 warning generated.
+Linking C executable cmTC_6cb54
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cb54.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=abs -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6cb54.dir/CheckFunctionExists.c.o  -o cmTC_6cb54 
+
+
+Determining if the function bcopy exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_90d58/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_90d58.dir/build.make CMakeFiles/cmTC_90d58.dir/build
+Building C object CMakeFiles/cmTC_90d58.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=bcopy   -o CMakeFiles/cmTC_90d58.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_90d58
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90d58.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=bcopy -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_90d58.dir/CheckFunctionExists.c.o  -o cmTC_90d58 
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e2cbe/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e2cbe.dir/build.make CMakeFiles/cmTC_e2cbe.dir/build
+Building C object CMakeFiles/cmTC_e2cbe.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=memset   -o CMakeFiles/cmTC_e2cbe.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memset' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'memset' is a builtin with type 'void *(void *, int, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+1 warning generated.
+Linking C executable cmTC_e2cbe
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2cbe.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=memset -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e2cbe.dir/CheckFunctionExists.c.o  -o cmTC_e2cbe 
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_385e9/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_385e9.dir/build.make CMakeFiles/cmTC_385e9.dir/build
+Building C object CMakeFiles/cmTC_385e9.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=memcpy   -o CMakeFiles/cmTC_385e9.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memcpy' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'memcpy' is a builtin with type 'void *(void *, const void *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+1 warning generated.
+Linking C executable cmTC_385e9
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_385e9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=memcpy -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_385e9.dir/CheckFunctionExists.c.o  -o cmTC_385e9 
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_52067/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_52067.dir/build.make CMakeFiles/cmTC_52067.dir/build
+Building C object CMakeFiles/cmTC_52067.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=memmove   -o CMakeFiles/cmTC_52067.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memmove' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memmove
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'memmove' is a builtin with type 'void *(void *, const void *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memmove
+                              ^
+1 warning generated.
+Linking C executable cmTC_52067
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52067.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=memmove -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_52067.dir/CheckFunctionExists.c.o  -o cmTC_52067 
+
+
+Determining if the function memcmp exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aa78a/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_aa78a.dir/build.make CMakeFiles/cmTC_aa78a.dir/build
+Building C object CMakeFiles/cmTC_aa78a.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=memcmp   -o CMakeFiles/cmTC_aa78a.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memcmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcmp
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'memcmp' is a builtin with type 'int (const void *, const void *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_aa78a
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa78a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=memcmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_aa78a.dir/CheckFunctionExists.c.o  -o cmTC_aa78a 
+
+
+Determining if the function strlen exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0e5ea/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0e5ea.dir/build.make CMakeFiles/cmTC_0e5ea.dir/build
+Building C object CMakeFiles/cmTC_0e5ea.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlen   -o CMakeFiles/cmTC_0e5ea.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlen' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlen
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'strlen' is a builtin with type 'unsigned long (const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlen
+                              ^
+1 warning generated.
+Linking C executable cmTC_0e5ea
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e5ea.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlen -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0e5ea.dir/CheckFunctionExists.c.o  -o cmTC_0e5ea 
+
+
+Determining if the function strlcpy exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e0da2/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e0da2.dir/build.make CMakeFiles/cmTC_e0da2.dir/build
+Building C object CMakeFiles/cmTC_e0da2.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTC_e0da2.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlcpy' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcpy
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'strlcpy' is a builtin with type 'unsigned long (char *, const char *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcpy
+                              ^
+1 warning generated.
+Linking C executable cmTC_e0da2
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0da2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcpy -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e0da2.dir/CheckFunctionExists.c.o  -o cmTC_e0da2 
+
+
+Determining if the function strlcat exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8e784/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8e784.dir/build.make CMakeFiles/cmTC_8e784.dir/build
+Building C object CMakeFiles/cmTC_8e784.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTC_8e784.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlcat' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcat
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'strlcat' is a builtin with type 'unsigned long (char *, const char *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcat
+                              ^
+1 warning generated.
+Linking C executable cmTC_8e784
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e784.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcat -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8e784.dir/CheckFunctionExists.c.o  -o cmTC_8e784 
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_693b0/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_693b0.dir/build.make CMakeFiles/cmTC_693b0.dir/build
+Building C object CMakeFiles/cmTC_693b0.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strchr   -o CMakeFiles/cmTC_693b0.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strchr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strchr
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'strchr' is a builtin with type 'char *(const char *, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strchr
+                              ^
+1 warning generated.
+Linking C executable cmTC_693b0
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_693b0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strchr -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_693b0.dir/CheckFunctionExists.c.o  -o cmTC_693b0 
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_55b37/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_55b37.dir/build.make CMakeFiles/cmTC_55b37.dir/build
+Building C object CMakeFiles/cmTC_55b37.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strrchr   -o CMakeFiles/cmTC_55b37.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strrchr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'strrchr' is a builtin with type 'char *(const char *, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+1 warning generated.
+Linking C executable cmTC_55b37
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55b37.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strrchr -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_55b37.dir/CheckFunctionExists.c.o  -o cmTC_55b37 
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_376d2/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_376d2.dir/build.make CMakeFiles/cmTC_376d2.dir/build
+Building C object CMakeFiles/cmTC_376d2.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strstr   -o CMakeFiles/cmTC_376d2.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strstr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'strstr' is a builtin with type 'char *(const char *, const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+1 warning generated.
+Linking C executable cmTC_376d2
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_376d2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strstr -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_376d2.dir/CheckFunctionExists.c.o  -o cmTC_376d2 
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_615fe/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_615fe.dir/build.make CMakeFiles/cmTC_615fe.dir/build
+Building C object CMakeFiles/cmTC_615fe.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtol   -o CMakeFiles/cmTC_615fe.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_615fe
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_615fe.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtol -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_615fe.dir/CheckFunctionExists.c.o  -o cmTC_615fe 
+
+
+Determining if the function strtoul exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_df932/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_df932.dir/build.make CMakeFiles/cmTC_df932.dir/build
+Building C object CMakeFiles/cmTC_df932.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoul   -o CMakeFiles/cmTC_df932.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_df932
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df932.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoul -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_df932.dir/CheckFunctionExists.c.o  -o cmTC_df932 
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_93961/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_93961.dir/build.make CMakeFiles/cmTC_93961.dir/build
+Building C object CMakeFiles/cmTC_93961.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoll   -o CMakeFiles/cmTC_93961.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_93961
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93961.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoll -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_93961.dir/CheckFunctionExists.c.o  -o cmTC_93961 
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_92469/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_92469.dir/build.make CMakeFiles/cmTC_92469.dir/build
+Building C object CMakeFiles/cmTC_92469.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoull   -o CMakeFiles/cmTC_92469.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_92469
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92469.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoull -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_92469.dir/CheckFunctionExists.c.o  -o cmTC_92469 
+
+
+Determining if the function atoi exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ba78c/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ba78c.dir/build.make CMakeFiles/cmTC_ba78c.dir/build
+Building C object CMakeFiles/cmTC_ba78c.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=atoi   -o CMakeFiles/cmTC_ba78c.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ba78c
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba78c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=atoi -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ba78c.dir/CheckFunctionExists.c.o  -o cmTC_ba78c 
+
+
+Determining if the function atof exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a7178/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a7178.dir/build.make CMakeFiles/cmTC_a7178.dir/build
+Building C object CMakeFiles/cmTC_a7178.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=atof   -o CMakeFiles/cmTC_a7178.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a7178
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7178.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=atof -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a7178.dir/CheckFunctionExists.c.o  -o cmTC_a7178 
+
+
+Determining if the function strcmp exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3e41f/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3e41f.dir/build.make CMakeFiles/cmTC_3e41f.dir/build
+Building C object CMakeFiles/cmTC_3e41f.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strcmp   -o CMakeFiles/cmTC_3e41f.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strcmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcmp
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'strcmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_3e41f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e41f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strcmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3e41f.dir/CheckFunctionExists.c.o  -o cmTC_3e41f 
+
+
+Determining if the function strncmp exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_04bf6/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_04bf6.dir/build.make CMakeFiles/cmTC_04bf6.dir/build
+Building C object CMakeFiles/cmTC_04bf6.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strncmp   -o CMakeFiles/cmTC_04bf6.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strncmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncmp
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'strncmp' is a builtin with type 'int (const char *, const char *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_04bf6
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04bf6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strncmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_04bf6.dir/CheckFunctionExists.c.o  -o cmTC_04bf6 
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_09bfb/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_09bfb.dir/build.make CMakeFiles/cmTC_09bfb.dir/build
+Building C object CMakeFiles/cmTC_09bfb.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strcasecmp   -o CMakeFiles/cmTC_09bfb.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strcasecmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'strcasecmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_09bfb
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09bfb.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strcasecmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_09bfb.dir/CheckFunctionExists.c.o  -o cmTC_09bfb 
+
+
+Determining if the function strncasecmp exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8dff4/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8dff4.dir/build.make CMakeFiles/cmTC_8dff4.dir/build
+Building C object CMakeFiles/cmTC_8dff4.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strncasecmp   -o CMakeFiles/cmTC_8dff4.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strncasecmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncasecmp
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'strncasecmp' is a builtin with type 'int (const char *, const char *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncasecmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_8dff4
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dff4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=strncasecmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8dff4.dir/CheckFunctionExists.c.o  -o cmTC_8dff4 
+
+
+Determining if the function vsscanf exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ce2f1/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ce2f1.dir/build.make CMakeFiles/cmTC_ce2f1.dir/build
+Building C object CMakeFiles/cmTC_ce2f1.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=vsscanf   -o CMakeFiles/cmTC_ce2f1.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'vsscanf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsscanf
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'vsscanf' is a builtin with type 'int (const char *restrict, const char *restrict, struct __va_list_tag *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsscanf
+                              ^
+1 warning generated.
+Linking C executable cmTC_ce2f1
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce2f1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=vsscanf -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ce2f1.dir/CheckFunctionExists.c.o  -o cmTC_ce2f1 
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2729a/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2729a.dir/build.make CMakeFiles/cmTC_2729a.dir/build
+Building C object CMakeFiles/cmTC_2729a.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTC_2729a.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'vsnprintf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'vsnprintf' is a builtin with type 'int (char *, unsigned long, const char *, struct __va_list_tag *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+1 warning generated.
+Linking C executable cmTC_2729a
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2729a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=vsnprintf -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2729a.dir/CheckFunctionExists.c.o  -o cmTC_2729a 
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_36623/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_36623.dir/build.make CMakeFiles/cmTC_36623.dir/build
+Building C object CMakeFiles/cmTC_36623.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTC_36623.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_36623
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36623.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=fseeko -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_36623.dir/CheckFunctionExists.c.o  -o cmTC_36623 
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a868b/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a868b.dir/build.make CMakeFiles/cmTC_a868b.dir/build
+Building C object CMakeFiles/cmTC_a868b.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=sigaction   -o CMakeFiles/cmTC_a868b.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a868b
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a868b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=sigaction -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a868b.dir/CheckFunctionExists.c.o  -o cmTC_a868b 
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4ac54/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4ac54.dir/build.make CMakeFiles/cmTC_4ac54.dir/build
+Building C object CMakeFiles/cmTC_4ac54.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=setjmp   -o CMakeFiles/cmTC_4ac54.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: declaration of built-in function 'setjmp' requires inclusion of the header <setjmp.h> [-Wbuiltin-requires-header]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS setjmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_4ac54
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ac54.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=setjmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4ac54.dir/CheckFunctionExists.c.o  -o cmTC_4ac54 
+
+
+Determining if the function nanosleep exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_620d5/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_620d5.dir/build.make CMakeFiles/cmTC_620d5.dir/build
+Building C object CMakeFiles/cmTC_620d5.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=nanosleep   -o CMakeFiles/cmTC_620d5.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_620d5
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_620d5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=nanosleep -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_620d5.dir/CheckFunctionExists.c.o  -o cmTC_620d5 
+
+
+Determining if the function sysconf exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ebc17/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ebc17.dir/build.make CMakeFiles/cmTC_ebc17.dir/build
+Building C object CMakeFiles/cmTC_ebc17.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysconf   -o CMakeFiles/cmTC_ebc17.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ebc17
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebc17.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysconf -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ebc17.dir/CheckFunctionExists.c.o  -o cmTC_ebc17 
+
+
+Determining if the function sysctlbyname exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cc8af/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cc8af.dir/build.make CMakeFiles/cmTC_cc8af.dir/build
+Building C object CMakeFiles/cmTC_cc8af.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysctlbyname   -o CMakeFiles/cmTC_cc8af.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cc8af
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc8af.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysctlbyname -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cc8af.dir/CheckFunctionExists.c.o  -o cmTC_cc8af 
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_69f5a/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_69f5a.dir/build.make CMakeFiles/cmTC_69f5a.dir/build
+Building C object CMakeFiles/cmTC_69f5a.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTC_69f5a.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_69f5a
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69f5a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=poll -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_69f5a.dir/CheckFunctionExists.c.o  -o cmTC_69f5a 
+
+
+Determining if the function pow exists in the m passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0631f/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0631f.dir/build.make CMakeFiles/cmTC_0631f.dir/build
+Building C object CMakeFiles/cmTC_0631f.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=pow   -o CMakeFiles/cmTC_0631f.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+Linking C executable cmTC_0631f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0631f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=pow -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0631f.dir/CheckFunctionExists.c.o  -o cmTC_0631f -lm 
+
+
+Determining if the function atan exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ef878/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ef878.dir/build.make CMakeFiles/cmTC_ef878.dir/build
+Building C object CMakeFiles/cmTC_ef878.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=atan   -o CMakeFiles/cmTC_ef878.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'atan' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'atan' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan
+                              ^
+1 warning generated.
+Linking C executable cmTC_ef878
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef878.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=atan -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ef878.dir/CheckFunctionExists.c.o  -o cmTC_ef878 -lm 
+
+
+Determining if the function atan2 exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_48fab/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_48fab.dir/build.make CMakeFiles/cmTC_48fab.dir/build
+Building C object CMakeFiles/cmTC_48fab.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=atan2   -o CMakeFiles/cmTC_48fab.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'atan2' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan2
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'atan2' is a builtin with type 'double (double, double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan2
+                              ^
+1 warning generated.
+Linking C executable cmTC_48fab
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48fab.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=atan2 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_48fab.dir/CheckFunctionExists.c.o  -o cmTC_48fab -lm 
+
+
+Determining if the function ceil exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ee56d/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ee56d.dir/build.make CMakeFiles/cmTC_ee56d.dir/build
+Building C object CMakeFiles/cmTC_ee56d.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=ceil   -o CMakeFiles/cmTC_ee56d.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'ceil' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS ceil
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'ceil' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS ceil
+                              ^
+1 warning generated.
+Linking C executable cmTC_ee56d
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee56d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=ceil -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ee56d.dir/CheckFunctionExists.c.o  -o cmTC_ee56d -lm 
+
+
+Determining if the function copysign exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b3d9c/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b3d9c.dir/build.make CMakeFiles/cmTC_b3d9c.dir/build
+Building C object CMakeFiles/cmTC_b3d9c.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=copysign   -o CMakeFiles/cmTC_b3d9c.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'copysign' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS copysign
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'copysign' is a builtin with type 'double (double, double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS copysign
+                              ^
+1 warning generated.
+Linking C executable cmTC_b3d9c
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3d9c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=copysign -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b3d9c.dir/CheckFunctionExists.c.o  -o cmTC_b3d9c -lm 
+
+
+Determining if the function cos exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_239ea/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_239ea.dir/build.make CMakeFiles/cmTC_239ea.dir/build
+Building C object CMakeFiles/cmTC_239ea.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=cos   -o CMakeFiles/cmTC_239ea.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'cos' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cos
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'cos' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cos
+                              ^
+1 warning generated.
+Linking C executable cmTC_239ea
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_239ea.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=cos -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_239ea.dir/CheckFunctionExists.c.o  -o cmTC_239ea -lm 
+
+
+Determining if the function cosf exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7672f/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7672f.dir/build.make CMakeFiles/cmTC_7672f.dir/build
+Building C object CMakeFiles/cmTC_7672f.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=cosf   -o CMakeFiles/cmTC_7672f.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'cosf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cosf
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'cosf' is a builtin with type 'float (float)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cosf
+                              ^
+1 warning generated.
+Linking C executable cmTC_7672f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7672f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=cosf -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7672f.dir/CheckFunctionExists.c.o  -o cmTC_7672f -lm 
+
+
+Determining if the function fabs exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6e7aa/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6e7aa.dir/build.make CMakeFiles/cmTC_6e7aa.dir/build
+Building C object CMakeFiles/cmTC_6e7aa.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=fabs   -o CMakeFiles/cmTC_6e7aa.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'fabs' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS fabs
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'fabs' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS fabs
+                              ^
+1 warning generated.
+Linking C executable cmTC_6e7aa
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e7aa.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=fabs -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6e7aa.dir/CheckFunctionExists.c.o  -o cmTC_6e7aa -lm 
+
+
+Determining if the function floor exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b97ba/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b97ba.dir/build.make CMakeFiles/cmTC_b97ba.dir/build
+Building C object CMakeFiles/cmTC_b97ba.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTC_b97ba.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'floor' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'floor' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+1 warning generated.
+Linking C executable cmTC_b97ba
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b97ba.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=floor -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b97ba.dir/CheckFunctionExists.c.o  -o cmTC_b97ba -lm 
+
+
+Determining if the function log exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e4061/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e4061.dir/build.make CMakeFiles/cmTC_e4061.dir/build
+Building C object CMakeFiles/cmTC_e4061.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=log   -o CMakeFiles/cmTC_e4061.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'log' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'log' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log
+                              ^
+1 warning generated.
+Linking C executable cmTC_e4061
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4061.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=log -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e4061.dir/CheckFunctionExists.c.o  -o cmTC_e4061 -lm 
+
+
+Determining if the function pow exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_65a20/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_65a20.dir/build.make CMakeFiles/cmTC_65a20.dir/build
+Building C object CMakeFiles/cmTC_65a20.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=pow   -o CMakeFiles/cmTC_65a20.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+Linking C executable cmTC_65a20
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65a20.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=pow -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_65a20.dir/CheckFunctionExists.c.o  -o cmTC_65a20 -lm 
+
+
+Determining if the function scalbn exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e19f3/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e19f3.dir/build.make CMakeFiles/cmTC_e19f3.dir/build
+Building C object CMakeFiles/cmTC_e19f3.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=scalbn   -o CMakeFiles/cmTC_e19f3.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'scalbn' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS scalbn
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'scalbn' is a builtin with type 'double (double, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS scalbn
+                              ^
+1 warning generated.
+Linking C executable cmTC_e19f3
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e19f3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=scalbn -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e19f3.dir/CheckFunctionExists.c.o  -o cmTC_e19f3 -lm 
+
+
+Determining if the function sin exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c7f4d/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c7f4d.dir/build.make CMakeFiles/cmTC_c7f4d.dir/build
+Building C object CMakeFiles/cmTC_c7f4d.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=sin   -o CMakeFiles/cmTC_c7f4d.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sin' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sin
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'sin' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sin
+                              ^
+1 warning generated.
+Linking C executable cmTC_c7f4d
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7f4d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=sin -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c7f4d.dir/CheckFunctionExists.c.o  -o cmTC_c7f4d -lm 
+
+
+Determining if the function sinf exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_88f5d/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_88f5d.dir/build.make CMakeFiles/cmTC_88f5d.dir/build
+Building C object CMakeFiles/cmTC_88f5d.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=sinf   -o CMakeFiles/cmTC_88f5d.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sinf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sinf
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'sinf' is a builtin with type 'float (float)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sinf
+                              ^
+1 warning generated.
+Linking C executable cmTC_88f5d
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88f5d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=sinf -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_88f5d.dir/CheckFunctionExists.c.o  -o cmTC_88f5d -lm 
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e0070/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e0070.dir/build.make CMakeFiles/cmTC_e0070.dir/build
+Building C object CMakeFiles/cmTC_e0070.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=sqrt   -o CMakeFiles/cmTC_e0070.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sqrt' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'sqrt' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+1 warning generated.
+Linking C executable cmTC_e0070
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0070.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=sqrt -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e0070.dir/CheckFunctionExists.c.o  -o cmTC_e0070 -lm 
+
+
+Determining if the function sqrtf exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5c4d4/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5c4d4.dir/build.make CMakeFiles/cmTC_5c4d4.dir/build
+Building C object CMakeFiles/cmTC_5c4d4.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=sqrtf   -o CMakeFiles/cmTC_5c4d4.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sqrtf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrtf
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'sqrtf' is a builtin with type 'float (float)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrtf
+                              ^
+1 warning generated.
+Linking C executable cmTC_5c4d4
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c4d4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=sqrtf -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5c4d4.dir/CheckFunctionExists.c.o  -o cmTC_5c4d4 -lm 
+
+
+Determining if the function tan exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3a01f/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3a01f.dir/build.make CMakeFiles/cmTC_3a01f.dir/build
+Building C object CMakeFiles/cmTC_3a01f.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=tan   -o CMakeFiles/cmTC_3a01f.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'tan' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tan
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'tan' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tan
+                              ^
+1 warning generated.
+Linking C executable cmTC_3a01f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a01f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=tan -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3a01f.dir/CheckFunctionExists.c.o  -o cmTC_3a01f -lm 
+
+
+Determining if the function tanf exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8f328/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8f328.dir/build.make CMakeFiles/cmTC_8f328.dir/build
+Building C object CMakeFiles/cmTC_8f328.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=tanf   -o CMakeFiles/cmTC_8f328.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'tanf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tanf
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'tanf' is a builtin with type 'float (float)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tanf
+                              ^
+1 warning generated.
+Linking C executable cmTC_8f328
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f328.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=tanf -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8f328.dir/CheckFunctionExists.c.o  -o cmTC_8f328 -lm 
+
+
+Determining if the function acos exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ab29e/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ab29e.dir/build.make CMakeFiles/cmTC_ab29e.dir/build
+Building C object CMakeFiles/cmTC_ab29e.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=acos   -o CMakeFiles/cmTC_ab29e.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'acos' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS acos
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'acos' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS acos
+                              ^
+1 warning generated.
+Linking C executable cmTC_ab29e
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab29e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=acos -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ab29e.dir/CheckFunctionExists.c.o  -o cmTC_ab29e -lm 
+
+
+Determining if the function asin exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a1477/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a1477.dir/build.make CMakeFiles/cmTC_a1477.dir/build
+Building C object CMakeFiles/cmTC_a1477.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=asin   -o CMakeFiles/cmTC_a1477.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'asin' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS asin
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c:7:3: note: 'asin' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS asin
+                              ^
+1 warning generated.
+Linking C executable cmTC_a1477
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1477.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=asin -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a1477.dir/CheckFunctionExists.c.o  -o cmTC_a1477 -lm 
+
+
+Determining if the function iconv_open exists in the iconv passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b0fc3/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b0fc3.dir/build.make CMakeFiles/cmTC_b0fc3.dir/build
+Building C object CMakeFiles/cmTC_b0fc3.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=iconv_open   -o CMakeFiles/cmTC_b0fc3.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b0fc3
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0fc3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=iconv_open -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b0fc3.dir/CheckFunctionExists.c.o  -o cmTC_b0fc3 -liconv 
+
+
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION succeeded with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3ee68/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3ee68.dir/build.make CMakeFiles/cmTC_3ee68.dir/build
+Building C object CMakeFiles/cmTC_3ee68.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_SA_SIGACTION   -o CMakeFiles/cmTC_3ee68.dir/src.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3ee68
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ee68.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_SA_SIGACTION -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3ee68.dir/src.c.o  -o cmTC_3ee68 
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+   (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+   return 0;
+}
+
+Determining if the function dlopen exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c50cc/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c50cc.dir/build.make CMakeFiles/cmTC_c50cc.dir/build
+Building C object CMakeFiles/cmTC_c50cc.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTC_c50cc.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c50cc
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c50cc.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=dlopen -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c50cc.dir/CheckFunctionExists.c.o  -o cmTC_c50cc 
+
+
+Performing C SOURCE FILE Test HAVE_PTHREADS succeeded with the following compile output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_474e0/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_474e0.dir/build.make CMakeFiles/cmTC_474e0.dir/build
+Building C object CMakeFiles/cmTC_474e0.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_PTHREADS  -D_THREAD_SAFE   -o CMakeFiles/cmTC_474e0.dir/src.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_474e0
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_474e0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_PTHREADS  -D_THREAD_SAFE -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_474e0.dir/src.c.o  -o cmTC_474e0 
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char** argv) {
+          pthread_attr_t type;
+          pthread_attr_init(&type);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_RECURSIVE_MUTEXES succeeded with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d1822/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d1822.dir/build.make CMakeFiles/cmTC_d1822.dir/build
+Building C object CMakeFiles/cmTC_d1822.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_RECURSIVE_MUTEXES  -D_THREAD_SAFE   -o CMakeFiles/cmTC_d1822.dir/src.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d1822
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1822.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_RECURSIVE_MUTEXES  -D_THREAD_SAFE -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d1822.dir/src.c.o  -o cmTC_d1822 
+
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char **argv) {
+          pthread_mutexattr_t attr;
+          pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREADS_SEM succeeded with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0332d/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0332d.dir/build.make CMakeFiles/cmTC_0332d.dir/build
+Building C object CMakeFiles/cmTC_0332d.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_PTHREADS_SEM  -D_THREAD_SAFE   -o CMakeFiles/cmTC_0332d.dir/src.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0332d
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0332d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DHAVE_PTHREADS_SEM  -D_THREAD_SAFE -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0332d.dir/src.c.o  -o cmTC_0332d 
+
+Source file was:
+#include <pthread.h>
+                                 #include <semaphore.h>
+                                 int main(int argc, char **argv) { return 0; }
+Determining if the function pthread_setname_np exists passed with the following output:
+Change Dir: /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4ed4a/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4ed4a.dir/build.make CMakeFiles/cmTC_4ed4a.dir/build
+Building C object CMakeFiles/cmTC_4ed4a.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=pthread_setname_np  -D_THREAD_SAFE   -o CMakeFiles/cmTC_4ed4a.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4ed4a
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ed4a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -idirafter /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/sdl/source/src/sdlLibrary/src/video/khronos -DCHECK_FUNCTION_EXISTS=pthread_setname_np  -D_THREAD_SAFE -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4ed4a.dir/CheckFunctionExists.c.o  -o cmTC_4ed4a 
+
+

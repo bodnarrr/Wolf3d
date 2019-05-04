@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles/sdlLibrary"
+		},
+		{
+			"file" : "/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles/sdlLibrary.rule"
+		},
+		{
+			"file" : "/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles/sdlLibrary-complete.rule"
+		},
+		{
+			"file" : "/Users/abodnar/homebrew/Cellar/sdl2/source/src/sdlLibrary-stamp/sdlLibrary-install.rule"
+		},
+		{
+			"file" : "/Users/abodnar/homebrew/Cellar/sdl2/source/src/sdlLibrary-stamp/sdlLibrary-mkdir.rule"
+		},
+		{
+			"file" : "/Users/abodnar/homebrew/Cellar/sdl2/source/src/sdlLibrary-stamp/sdlLibrary-download.rule"
+		},
+		{
+			"file" : "/Users/abodnar/homebrew/Cellar/sdl2/source/src/sdlLibrary-stamp/sdlLibrary-update.rule"
+		},
+		{
+			"file" : "/Users/abodnar/homebrew/Cellar/sdl2/source/src/sdlLibrary-stamp/sdlLibrary-patch.rule"
+		},
+		{
+			"file" : "/Users/abodnar/homebrew/Cellar/sdl2/source/src/sdlLibrary-stamp/sdlLibrary-configure.rule"
+		},
+		{
+			"file" : "/Users/abodnar/homebrew/Cellar/sdl2/source/src/sdlLibrary-stamp/sdlLibrary-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sdlLibrary"
+		],
+		"name" : "sdlLibrary"
+	}
+}

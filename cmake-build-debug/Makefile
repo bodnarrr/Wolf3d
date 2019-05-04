@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/andrii/Develop/Wolf3D
+CMAKE_SOURCE_DIR = /Users/abodnar/UNT/Projects/Wolf3D
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/andrii/Develop/Wolf3D/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles /Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -109,6 +109,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named sdlLibrary
+
+# Build rule for target.
+sdlLibrary: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sdlLibrary
+.PHONY : sdlLibrary
+
+# fast build rule for target.
+sdlLibrary/fast:
+	$(MAKE) -f CMakeFiles/sdlLibrary.dir/build.make CMakeFiles/sdlLibrary.dir/build
+.PHONY : sdlLibrary/fast
 
 #=============================================================================
 # Target rules for targets named Wolf3D
@@ -2804,6 +2817,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... sdlLibrary"
 	@echo "... Wolf3D"
 	@echo "... add_perimeter_walls.o"
 	@echo "... add_perimeter_walls.i"

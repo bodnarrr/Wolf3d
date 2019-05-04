@@ -33,5 +33,4 @@ void		check_event(SDL_Event event, t_wolf *params)
 		route_events(code, params);
 		make_calculations(params);
 	}
-
 }

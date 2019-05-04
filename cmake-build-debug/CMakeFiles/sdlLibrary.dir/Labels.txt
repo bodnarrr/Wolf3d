@@ -1,0 +1,13 @@
+# Target labels
+ sdlLibrary
+# Source files and their labels
+/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles/sdlLibrary
+/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles/sdlLibrary.rule
+/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles/sdlLibrary-complete.rule
+/Users/abodnar/homebrew/Cellar/sdl2/source/src/sdlLibrary-stamp/sdlLibrary-install.rule
+/Users/abodnar/homebrew/Cellar/sdl2/source/src/sdlLibrary-stamp/sdlLibrary-mkdir.rule
+/Users/abodnar/homebrew/Cellar/sdl2/source/src/sdlLibrary-stamp/sdlLibrary-download.rule
+/Users/abodnar/homebrew/Cellar/sdl2/source/src/sdlLibrary-stamp/sdlLibrary-update.rule
+/Users/abodnar/homebrew/Cellar/sdl2/source/src/sdlLibrary-stamp/sdlLibrary-patch.rule
+/Users/abodnar/homebrew/Cellar/sdl2/source/src/sdlLibrary-stamp/sdlLibrary-configure.rule
+/Users/abodnar/homebrew/Cellar/sdl2/source/src/sdlLibrary-stamp/sdlLibrary-build.rule

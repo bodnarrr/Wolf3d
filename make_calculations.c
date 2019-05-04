@@ -44,7 +44,6 @@ void	make_calculations(t_wolf *params)
 		wall_height = height_for_column(i, params);
 		wall_height = wall_height < SCREEN_HEIGHT ? wall_height : SCREEN_HEIGHT;
 		draw_column(i, wall_height, params);
-//		ft_printf("i = %d, height = %d\n", i, wall_height);
 	}
 	SDL_UpdateWindowSurface(params->sdl.window);
 }
