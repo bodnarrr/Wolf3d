@@ -12,6 +12,20 @@
 
 #include "wolf3d.h"
 
+static void increase_speed(bool is_increasing, t_wolf *params)
+{
+	double	speed_change;
+
+	speed_change = is_increasing ? 0.009 : -0.009;
+	params->pos_info.move_speed += speed_change;
+	if (params->pos_info.move_speed < MIN_SPEED)
+		params->pos_info.move_speed = MIN_SPEED;
+	else if (params->pos_info.move_speed > MAX_SPEED)
+		params->pos_info.move_speed = MAX_SPEED;
+
+	printf("Speed = %f\n", params->pos_info.move_speed);
+}
+
 static void	rotate(bool is_right, t_wolf *params)
 {
 	double	speed;
@@ -48,12 +62,16 @@ static void	move(bool is_move_forward, t_wolf *params)
 
 void	route_events(SDL_Scancode code, t_wolf *params)
 {
-	if (code == SDL_SCANCODE_UP)
+	if (code == SDL_SCANCODE_W)
 		move(TRUE, params);
-	else if (code == SDL_SCANCODE_DOWN)
+	else if (code == SDL_SCANCODE_S)
 		move(FALSE, params);
-	else if (code == SDL_SCANCODE_LEFT)
+	else if (code == SDL_SCANCODE_A)
 		rotate(FALSE, params);
-	else if (code == SDL_SCANCODE_RIGHT)
+	else if (code == SDL_SCANCODE_D)
 		rotate(TRUE, params);
+	else if (code == SDL_SCANCODE_UP)
+		increase_speed(TRUE, params);
+	else if (code == SDL_SCANCODE_DOWN)
+		increase_speed(FALSE, params);
 }

@@ -14,7 +14,12 @@
 
 static bool	is_active_event(SDL_Scancode code)
 {
-	if (code > 78 && code < 83)
+	if (code == SDL_SCANCODE_W
+		|| code == SDL_SCANCODE_A
+		|| code == SDL_SCANCODE_S
+		|| code == SDL_SCANCODE_D
+		|| code == SDL_SCANCODE_UP
+		|| code == SDL_SCANCODE_DOWN)
 		return (TRUE);
 	return (FALSE);
 }

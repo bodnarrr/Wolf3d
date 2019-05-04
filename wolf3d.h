@@ -28,6 +28,9 @@
 # define FALSE 0
 # define READ_SIZE 32
 
+# define MIN_SPEED 0
+# define MAX_SPEED 0.25
+
 # define SKY			0x76D7EA
 # define GROUND			0x7A3D1F
 
