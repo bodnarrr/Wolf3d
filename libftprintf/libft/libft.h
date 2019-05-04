@@ -105,5 +105,6 @@ int					ft_str_allnum(char *str);
 char				*ft_str_clean_join(char **str1, char **str2);
 int					ft_strnsymb(char *str, char c);
 int					ft_word_count(char const *str, char delim);
+char				*ft_strsub_chr(char *source, char symbol);
 
 #endif

@@ -12,49 +12,93 @@
 
 #include "wolf3d.h"
 
-bool	read_map(t_wolf *params, char *input)
+static bool	check_map(t_wolf *params, char *raw_map)
 {
-	int 	fd;
-	int 	i;
-	int 	j;
+	char	*symbols;
+	char	*map_cpy;
 
-	fd = open(input, O_RDONLY);
-	if (fd < 0)
+	symbols = ft_strdup("1234567890 \n");
+	map_cpy = raw_map;
+	while (*map_cpy)
 	{
-		params->error = ft_strdup("Read map error text");
+		if (ft_strchr(symbols, *map_cpy) == NULL)
+		{
+			params->error = ft_strdup("Incorrect symbols in map!\n");
+			ft_strdel(&symbols);
+			return (FALSE);
+		}
+		map_cpy++;
+	}
+	ft_strdel(&symbols);
+	return (TRUE);
+}
+
+static char *read_file(t_wolf *params, char *input, int fd)
+{
+	char	*res;
+	char	*cpy;
+	char	buf[READ_SIZE + 1];
+
+	if ((fd = open(input, O_RDONLY)) == -1)
+		return (NULL);
+	res = ft_strnew(0);
+	ft_bzero(buf, READ_SIZE);
+	while (read(fd, buf, READ_SIZE) > 0)
+	{
+		buf[READ_SIZE] = '\0';
+		cpy = res;
+		res = ft_strjoin(res, buf);
+		ft_strdel(&cpy);
+		ft_bzero(buf, READ_SIZE);
+	}
+	close(fd);
+	cpy = res;
+	while (*cpy)
+	{
+		if (*cpy == '\n')
+			params->map_height++;
+		cpy++;
+	}
+	return (res);
+}
+
+bool		read_map(t_wolf *params, char *input)
+{
+	char *raw_map;
+
+	if ((raw_map = read_file(params, input, 0)) == NULL)
+	{
+		params->error = ft_strdup("Read map error");
 		return (FALSE);
 	}
+	if (check_map(params, raw_map) == FALSE)
+		return (FALSE);
+	parse_map(params, raw_map);
+	ft_strdel(&raw_map);
 
-	params->map = (int**)ft_memalloc(sizeof(int*) * params->map_height);
+	int i, j;
+
 	i = -1;
-	while (++i < params->map_height)
-		params->map[i] = (int*)ft_memalloc(sizeof(int) * params->map_width);
-	i = -1;
-	/*
-	 * Just for a test
-	 * Remove when map reading will be ready
-	 */
-	while (++i < params->map_height)
+	while (params->map[++i])
 	{
 		j = -1;
-		while (++j < params->map_width)
-//			params->map[i][j] = (i == 0 || i == params->map_height - 1
-//					|| j == 0 || j == params->map_width - 1
-//					|| i == j) ? 1 : 0;
-			params->map[i][j] = (i == 0 || (i == 4 && j == 4) || i == params->map_height - 1
-								|| j == 0 || j == params->map_height - 1)
-								? 1 : 0;
-	}
-	i = -1;
-	while (++i < params->map_height)
-	{
-		j = -1;
-		while (++j < params->map_width)
+		while (params->map[i][++j] != -1)
 			ft_printf("%d ", params->map[i][j]);
 		ft_printf("\n");
 	}
-//	params->did_read_map = 1;
-	close(fd);
+	ft_printf("\n");
+
+	add_perimeter_walls(params->map);
+
+	i = -1;
+	while (params->map[++i])
+	{
+		j = -1;
+		while (params->map[i][++j] != -1)
+			ft_printf("%d ", params->map[i][j]);
+		ft_printf("\n");
+	}
+
 	return (TRUE);
 }
 

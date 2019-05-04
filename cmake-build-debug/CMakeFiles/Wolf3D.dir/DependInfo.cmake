@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/andrii/Develop/Wolf3D/add_perimeter_walls.c" "/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/add_perimeter_walls.c.o"
   "/Users/andrii/Develop/Wolf3D/check_arguments.c" "/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/check_arguments.c.o"
   "/Users/andrii/Develop/Wolf3D/check_event.c" "/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/check_event.c.o"
   "/Users/andrii/Develop/Wolf3D/handle_error.c" "/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/handle_error.c.o"
@@ -89,6 +90,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strsplit.c" "/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsplit.c.o"
   "/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strstr.c" "/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strstr.c.o"
   "/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strsub.c" "/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub.c.o"
+  "/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strsub_chr.c" "/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub_chr.c.o"
   "/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strswap.c" "/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strswap.c.o"
   "/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strtrim.c" "/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strtrim.c.o"
   "/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_swap.c" "/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_swap.c.o"
@@ -98,6 +100,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/andrii/Develop/Wolf3D/libftprintf/libft/get_next_line.c" "/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/libftprintf/libft/get_next_line.c.o"
   "/Users/andrii/Develop/Wolf3D/main.c" "/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/main.c.o"
   "/Users/andrii/Develop/Wolf3D/make_calculations.c" "/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/make_calculations.c.o"
+  "/Users/andrii/Develop/Wolf3D/parse_map.c" "/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/parse_map.c.o"
   "/Users/andrii/Develop/Wolf3D/read_map.c" "/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/read_map.c.o"
   "/Users/andrii/Develop/Wolf3D/route_events.c" "/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/route_events.c.o"
   )

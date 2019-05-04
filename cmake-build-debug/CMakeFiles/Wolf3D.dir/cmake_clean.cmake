@@ -95,6 +95,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/Wolf3D.dir/make_calculations.c.o"
   "CMakeFiles/Wolf3D.dir/height_for_column.c.o"
   "CMakeFiles/Wolf3D.dir/route_events.c.o"
+  "CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub_chr.c.o"
+  "CMakeFiles/Wolf3D.dir/parse_map.c.o"
+  "CMakeFiles/Wolf3D.dir/add_perimeter_walls.c.o"
   "Wolf3D.pdb"
   "Wolf3D"
 )

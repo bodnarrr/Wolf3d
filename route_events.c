@@ -21,20 +21,12 @@ static void	rotate(bool is_right, t_wolf *params)
 	speed = is_right
 			? -params->pos_info.rotate_speed
 			: params->pos_info.rotate_speed;
-
 	old_dir_x = params->pos_info.dir_x;
 	params->pos_info.dir_x = params->pos_info.dir_x * cos(speed) - params->pos_info.dir_y * sin(speed);
 	params->pos_info.dir_y = old_dir_x * sin(speed) + params->pos_info.dir_y * cos(speed);
 	old_plane_x = params->pos_info.plane_x;
 	params->pos_info.plane_x = params->pos_info.plane_x * cos(speed) - params->pos_info.plane_y * sin(speed);
 	params->pos_info.plane_y = old_plane_x * sin(speed) + params->pos_info.plane_y * cos(speed);
-
-	ft_printf("");
-
-	if (is_right)
-		ft_printf("~~~> RIGHT <~~~\n");
-	else
-		ft_printf("~~~> LEFT <~~~\n");
 }
 
 static void	move(bool is_move_forward, t_wolf *params)
@@ -48,7 +40,6 @@ static void	move(bool is_move_forward, t_wolf *params)
 	new_x = is_move_forward
 			? params->pos_info.pos_x + params->pos_info.dir_x * params->pos_info.move_speed
 			: params->pos_info.pos_x - params->pos_info.dir_x * params->pos_info.move_speed;
-
 	if (params->map[(int)new_y][(int)params->pos_info.pos_x] == 0)
 		params->pos_info.pos_y = new_y;
 	if (params->map[(int)params->pos_info.pos_y][(int)new_x] == 0)
@@ -65,5 +56,4 @@ void	route_events(SDL_Scancode code, t_wolf *params)
 		rotate(FALSE, params);
 	else if (code == SDL_SCANCODE_RIGHT)
 		rotate(TRUE, params);
-
 }

@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/andrii/Develop/Wolf3D/add_perimeter_walls.c">
+			<Option target="Wolf3D"/>
+		</Unit>
 		<Unit filename="/Users/andrii/Develop/Wolf3D/check_arguments.c">
 			<Option target="Wolf3D"/>
 		</Unit>
@@ -339,6 +342,9 @@
 		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strsub.c">
 			<Option target="Wolf3D"/>
 		</Unit>
+		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strsub_chr.c">
+			<Option target="Wolf3D"/>
+		</Unit>
 		<Unit filename="/Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strswap.c">
 			<Option target="Wolf3D"/>
 		</Unit>
@@ -370,6 +376,9 @@
 			<Option target="Wolf3D"/>
 		</Unit>
 		<Unit filename="/Users/andrii/Develop/Wolf3D/make_calculations.c">
+			<Option target="Wolf3D"/>
+		</Unit>
+		<Unit filename="/Users/andrii/Develop/Wolf3D/parse_map.c">
 			<Option target="Wolf3D"/>
 		</Unit>
 		<Unit filename="/Users/andrii/Develop/Wolf3D/read_map.c">

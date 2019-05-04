@@ -28,6 +28,7 @@
 # define MOCK_MAP_HEIGHT 10
 # define TRUE 1
 # define FALSE 0
+# define READ_SIZE 32
 
 typedef struct	s_sdl
 {
@@ -54,7 +55,6 @@ typedef struct	s_wolf
 	t_position	pos_info;
 	int 		**map;
 	int 		map_height;
-	int 		map_width;
 	bool		is_working;
 	bool		did_read_map;
 	char 		*error;
@@ -89,5 +89,7 @@ void	check_event(SDL_Event event, t_wolf *params);
 void	make_calculations(t_wolf *params);
 int 	height_for_column(int x, t_wolf *params);
 void	route_events(SDL_Scancode code, t_wolf *params);
+void	parse_map(t_wolf *params, char *raw_map);
+void	add_perimeter_walls(int **map);
 
 #endif

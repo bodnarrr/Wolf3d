@@ -69,7 +69,7 @@ void		check_wall_hit(t_wolf *params, t_iterations *iter)
 			iter->map_y += iter->step_y;
 			params->side = 1;
 		}
-		if (params->map[iter->map_y][iter->map_x] > 0)
+		if (params->map[iter->map_y] && params->map[iter->map_y][iter->map_x] > 0)
 			iter->hit = 1;
 	}
 }

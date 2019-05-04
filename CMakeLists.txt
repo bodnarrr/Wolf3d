@@ -95,7 +95,7 @@ add_executable(Wolf3D
         libftprintf/ft_zero_nonptr.c
         libftprintf/libftprintf.h
         main.c
-        wolf3d.h init_params.c read_map.c handle_map_error.c init_position.c init_sdl.c handle_error.c check_arguments.c check_event.c make_calculations.c height_for_column.c route_events.c)
+        wolf3d.h init_params.c read_map.c handle_map_error.c init_position.c init_sdl.c handle_error.c check_arguments.c check_event.c make_calculations.c height_for_column.c route_events.c libftprintf/libft/ft_strsub_chr.c parse_map.c add_perimeter_walls.c)
 
 find_package(SDL2)
 
