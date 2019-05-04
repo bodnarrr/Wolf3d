@@ -75,30 +75,7 @@ bool		read_map(t_wolf *params, char *input)
 		return (FALSE);
 	parse_map(params, raw_map);
 	ft_strdel(&raw_map);
-
-	int i, j;
-
-	i = -1;
-	while (params->map[++i])
-	{
-		j = -1;
-		while (params->map[i][++j] != -1)
-			ft_printf("%d ", params->map[i][j]);
-		ft_printf("\n");
-	}
-	ft_printf("\n");
-
 	add_perimeter_walls(params->map);
-
-	i = -1;
-	while (params->map[++i])
-	{
-		j = -1;
-		while (params->map[i][++j] != -1)
-			ft_printf("%d ", params->map[i][j]);
-		ft_printf("\n");
-	}
-
 	return (TRUE);
 }
 

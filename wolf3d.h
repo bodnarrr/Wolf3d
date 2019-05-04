@@ -14,21 +14,32 @@
 # define WOLF3D_H
 
 # include "libftprintf/libftprintf.h"
-//# include "/usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL.h"
-//# include "/usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_events.h"
-# include "/Users/abodnar/homebrew/include/SDL2/SDL.h"
-# include "/Users/abodnar/homebrew/include/SDL2/SDL_events.h"
+# include "/usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL.h"
+# include "/usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_events.h"
+//# include "/Users/abodnar/homebrew/include/SDL2/SDL.h"
+//# include "/Users/abodnar/homebrew/include/SDL2/SDL_events.h"
 # include <math.h>
 
 # include <stdbool.h>
 
 # define SCREEN_WIDTH 800
 # define SCREEN_HEIGHT 600
-# define MOCK_MAP_WIDTH 10
-# define MOCK_MAP_HEIGHT 10
 # define TRUE 1
 # define FALSE 0
 # define READ_SIZE 32
+
+# define SKY			0x76D7EA
+# define GROUND			0x7A3D1F
+
+# define INDIGO			0x5780C7
+# define BARBERRY		0xDED717
+# define BLUEWHALE		0x042E4C
+# define REDDEVIL		0x860111
+# define REEF			0xC9FFA2
+# define RIPTIDE		0x8BE6D8
+# define SMOKY			0x605B73
+# define SORBUS			0xFD7C07
+# define NIAGARA		0x0DA590
 
 typedef struct	s_sdl
 {

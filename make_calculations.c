@@ -15,17 +15,22 @@
 void	draw_column(int x, int height, t_wolf *params)
 {
 	int	start;
+	int *pixels;
 	int i;
-	int y;
-	int position;
+	int pos;
 
 	start = (SCREEN_HEIGHT - height) / 2;
+	pixels = (int*)params->sdl.surface->pixels;
 	i = -1;
-	while (++i < height)
+	while (++i < SCREEN_HEIGHT)
 	{
-		y = start + i;
-		position = x + (y * SCREEN_WIDTH);
-		((int*)params->sdl.surface->pixels)[position] = params->side == 0
+		pos = x + (i * SCREEN_WIDTH);
+		if (i < start)
+			pixels[pos] = SKY;
+		else if (i > start + height)
+			pixels[pos] = GROUND;
+		else
+			pixels[pos] = params->side == 0
 				? 0x404040
 				: 0xAFAFAF;
 	}
@@ -42,7 +47,7 @@ void	make_calculations(t_wolf *params)
 	while (++i < SCREEN_WIDTH)
 	{
 		wall_height = height_for_column(i, params);
-		wall_height = wall_height < SCREEN_HEIGHT ? wall_height : SCREEN_HEIGHT;
+		wall_height = (wall_height < SCREEN_HEIGHT && wall_height > 0) ? wall_height : SCREEN_HEIGHT;
 		draw_column(i, wall_height, params);
 	}
 	SDL_UpdateWindowSurface(params->sdl.window);

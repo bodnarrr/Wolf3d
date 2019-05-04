@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/andrii/Develop/Wolf3D/height_for_column.c
-wolf3d.h
-/Users/andrii/Develop/Wolf3D/wolf3d.h
-
 /Users/andrii/Develop/Wolf3D/libftprintf/libft/libft.h
 unistd.h
 -
@@ -33,6 +29,10 @@ inttypes.h
 -
 libft/libft.h
 /Users/andrii/Develop/Wolf3D/libftprintf/libft/libft.h
+
+/Users/andrii/Develop/Wolf3D/make_calculations.c
+wolf3d.h
+/Users/andrii/Develop/Wolf3D/wolf3d.h
 
 /Users/andrii/Develop/Wolf3D/wolf3d.h
 libftprintf/libftprintf.h

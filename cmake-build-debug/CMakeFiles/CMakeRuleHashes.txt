@@ -1,10 +1,2 @@
 # Hashes of file build rules.
-55d881cbe5a0348f777fab81460de012 /Users/abodnar/homebrew/Cellar/sdl2/source/src/sdlLibrary-stamp/sdlLibrary-build
-c258ec5586de076a9249166cb16faccf /Users/abodnar/homebrew/Cellar/sdl2/source/src/sdlLibrary-stamp/sdlLibrary-configure
-93932cff3b440b0c09aafb9232603b6b /Users/abodnar/homebrew/Cellar/sdl2/source/src/sdlLibrary-stamp/sdlLibrary-download
-28b219f825220b290c3d65b7136a63d0 /Users/abodnar/homebrew/Cellar/sdl2/source/src/sdlLibrary-stamp/sdlLibrary-install
-3e19269b3ceef65642d4fa33d727da1c /Users/abodnar/homebrew/Cellar/sdl2/source/src/sdlLibrary-stamp/sdlLibrary-mkdir
-3d10a926662fd5e4786386a7e8acdc89 /Users/abodnar/homebrew/Cellar/sdl2/source/src/sdlLibrary-stamp/sdlLibrary-patch
-9af665b94e75448b17492326cedefa55 /Users/abodnar/homebrew/Cellar/sdl2/source/src/sdlLibrary-stamp/sdlLibrary-update
-3bc6a569d91a2ef29e856cef54de169b CMakeFiles/sdlLibrary
 0e38adbe18e086e493bbc591fa2009da CMakeFiles/sdlLibrary-complete
