@@ -16,4 +16,5 @@ void	init_parameters(t_wolf *params)
 {
 	ft_bzero(params, sizeof(t_wolf));
 	params->is_working = 1;
+	params->map_height = 1;
 }

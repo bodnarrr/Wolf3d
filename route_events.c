@@ -12,7 +12,7 @@
 
 #include "wolf3d.h"
 
-static void increase_rotate_speed(bool is_increasing, t_wolf *params)
+static void	increase_rotate_speed(bool is_increasing, t_wolf *params)
 {
 	double	rotate_speed_change;
 
@@ -96,7 +96,4 @@ void		route_events(SDL_Scancode code, t_wolf *params)
 		increase_rotate_speed(TRUE, params);
 	else if (code == SDL_SCANCODE_LEFT)
 		increase_rotate_speed(FALSE, params);
-
-	if (code == code)
-		code = code;
 }

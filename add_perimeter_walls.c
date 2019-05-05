@@ -29,7 +29,7 @@ static bool	check_border(int y, int x, int **map)
 	return (FALSE);
 }
 
-void	add_perimeter_walls(int **map)
+void		add_perimeter_walls(int **map)
 {
 	int	i;
 	int	j;
