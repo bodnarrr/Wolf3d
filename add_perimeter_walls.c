@@ -17,12 +17,12 @@ static bool	check_border(int y, int x, int **map)
 	int	i;
 
 	i = 0;
-	while (map[y - 1][i] != -1)
+	while (y != 0 && map[y - 1][i] != -1)
 		i++;
 	if (i <= x)
 		return (TRUE);
 	i = 0;
-	while (map[y + 1][i] != -1)
+	while (map[y + 1] && map[y + 1][i] != -1)
 		i++;
 	if (i <= x)
 		return (TRUE);

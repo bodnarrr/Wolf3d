@@ -31,6 +31,9 @@
 # define MIN_SPEED 0
 # define MAX_SPEED 0.25
 
+# define MIN_ROTATE_SPEED 0
+# define MAX_ROTATE_SPEED 0.12
+
 # define SKY			0x76D7EA
 # define GROUND			0x7A3D1F
 

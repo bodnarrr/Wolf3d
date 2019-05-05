@@ -19,7 +19,9 @@ static bool	is_active_event(SDL_Scancode code)
 		|| code == SDL_SCANCODE_S
 		|| code == SDL_SCANCODE_D
 		|| code == SDL_SCANCODE_UP
-		|| code == SDL_SCANCODE_DOWN)
+		|| code == SDL_SCANCODE_DOWN
+		|| code == SDL_SCANCODE_LEFT
+		|| code == SDL_SCANCODE_RIGHT)
 		return (TRUE);
 	return (FALSE);
 }
