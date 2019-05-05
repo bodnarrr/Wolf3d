@@ -33,7 +33,7 @@ static bool	check_map(t_wolf *params, char *raw_map)
 	return (TRUE);
 }
 
-static char *read_file(t_wolf *params, char *input, int fd)
+static char	*read_file(t_wolf *params, char *input, int fd)
 {
 	char	*res;
 	char	*cpy;
@@ -78,4 +78,3 @@ bool		read_map(t_wolf *params, char *input)
 	add_perimeter_walls(params->map);
 	return (TRUE);
 }
-

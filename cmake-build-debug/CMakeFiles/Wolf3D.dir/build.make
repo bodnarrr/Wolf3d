@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/andrii/Develop/Wolf3D
+CMAKE_SOURCE_DIR = /Users/abodnar/UNT/Projects/Wolf3D
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/andrii/Develop/Wolf3D/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Wolf3D.dir/depend.make
@@ -59,1303 +59,1303 @@ include CMakeFiles/Wolf3D.dir/flags.make
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_atoi.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_atoi.c.o: ../libftprintf/libft/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_atoi.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_atoi.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_atoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_atoi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_atoi.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_atoi.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_atoi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_atoi.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_atoi.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_atoi.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_atoi.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_atoi.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_atoi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_atoi.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_atoi.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_atoi.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_atoi.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_atoi.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_bzero.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_bzero.c.o: ../libftprintf/libft/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_bzero.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_bzero.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_bzero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_bzero.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_bzero.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_bzero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_bzero.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_bzero.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_bzero.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_bzero.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_bzero.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_bzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_bzero.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_bzero.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_bzero.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_bzero.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_bzero.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalnum.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalnum.c.o: ../libftprintf/libft/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalnum.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalnum.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_isalnum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalnum.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalnum.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_isalnum.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalnum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalnum.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_isalnum.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalnum.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_isalnum.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalnum.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalnum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalnum.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_isalnum.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalnum.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_isalnum.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalnum.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalpha.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalpha.c.o: ../libftprintf/libft/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalpha.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalpha.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_isalpha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalpha.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalpha.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_isalpha.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalpha.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalpha.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_isalpha.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalpha.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_isalpha.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalpha.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalpha.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalpha.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_isalpha.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalpha.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_isalpha.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isalpha.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isascii.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isascii.c.o: ../libftprintf/libft/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isascii.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isascii.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_isascii.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isascii.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isascii.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_isascii.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isascii.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isascii.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_isascii.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isascii.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_isascii.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isascii.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isascii.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isascii.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_isascii.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isascii.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_isascii.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isascii.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isdigit.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isdigit.c.o: ../libftprintf/libft/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isdigit.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isdigit.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_isdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isdigit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isdigit.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_isdigit.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isdigit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isdigit.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_isdigit.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isdigit.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_isdigit.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isdigit.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isdigit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isdigit.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_isdigit.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isdigit.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_isdigit.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isdigit.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isprint.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isprint.c.o: ../libftprintf/libft/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isprint.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isprint.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_isprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isprint.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isprint.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_isprint.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isprint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isprint.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_isprint.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isprint.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_isprint.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isprint.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isprint.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_isprint.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isprint.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_isprint.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_isprint.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa.c.o: ../libftprintf/libft/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_itoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_itoa.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_itoa.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_itoa.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_itoa.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_itoa.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_sign.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_sign.c.o: ../libftprintf/libft/ft_itoa_base_sign.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_sign.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_sign.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_itoa_base_sign.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_sign.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_sign.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_itoa_base_sign.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_sign.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_sign.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_itoa_base_sign.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_sign.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_itoa_base_sign.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_sign.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_sign.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_sign.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_itoa_base_sign.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_sign.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_itoa_base_sign.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_sign.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_unsign.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_unsign.c.o: ../libftprintf/libft/ft_itoa_base_unsign.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_unsign.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_unsign.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_itoa_base_unsign.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_unsign.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_unsign.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_itoa_base_unsign.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_unsign.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_unsign.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_itoa_base_unsign.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_unsign.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_itoa_base_unsign.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_unsign.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_unsign.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_unsign.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_itoa_base_unsign.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_unsign.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_itoa_base_unsign.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_itoa_base_unsign.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstadd.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstadd.c.o: ../libftprintf/libft/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstadd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstadd.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstadd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstadd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstadd.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstadd.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstadd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstadd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstadd.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstadd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstadd.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstadd.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstadd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstadd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstadd.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstadd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstadd.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstadd.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdel.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdel.c.o: ../libftprintf/libft/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdel.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdel.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdel.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstdel.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdel.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstdel.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstdel.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdel.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdel.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstdel.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstdel.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdel.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdelone.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdelone.c.o: ../libftprintf/libft/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdelone.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdelone.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstdelone.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdelone.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdelone.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstdelone.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdelone.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdelone.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstdelone.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdelone.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstdelone.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdelone.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdelone.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdelone.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstdelone.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdelone.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstdelone.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstdelone.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstiter.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstiter.c.o: ../libftprintf/libft/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstiter.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstiter.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstiter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstiter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstiter.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstiter.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstiter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstiter.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstiter.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstiter.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstiter.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstiter.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstiter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstiter.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstiter.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstiter.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstiter.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstiter.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstmap.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstmap.c.o: ../libftprintf/libft/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstmap.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstmap.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstmap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstmap.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstmap.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstmap.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstmap.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstmap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstmap.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstmap.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstmap.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstmap.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstmap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstmap.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstmap.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstnew.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstnew.c.o: ../libftprintf/libft/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstnew.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstnew.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstnew.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstnew.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstnew.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstnew.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstnew.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstnew.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstnew.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstnew.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_lstnew.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstnew.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_lstnew.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_lstnew.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memalloc.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memalloc.c.o: ../libftprintf/libft/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memalloc.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memalloc.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memalloc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memalloc.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memalloc.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memalloc.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memalloc.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memalloc.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memalloc.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memalloc.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memalloc.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memalloc.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memalloc.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memalloc.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memalloc.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memccpy.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memccpy.c.o: ../libftprintf/libft/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memccpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memccpy.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memccpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memccpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memccpy.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memccpy.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memccpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memccpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memccpy.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memccpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memccpy.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memccpy.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memccpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memccpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memccpy.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memccpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memccpy.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memccpy.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memchr.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memchr.c.o: ../libftprintf/libft/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memchr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memchr.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memchr.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memchr.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memchr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memchr.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memchr.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memchr.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memchr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memchr.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memchr.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memchr.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcmp.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcmp.c.o: ../libftprintf/libft/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcmp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcmp.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcmp.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memcmp.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcmp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memcmp.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memcmp.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcmp.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcmp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memcmp.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memcmp.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcmp.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcpy.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcpy.c.o: ../libftprintf/libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcpy.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcpy.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memcpy.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memcpy.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memcpy.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcpy.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memcpy.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memcpy.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memcpy.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memdel.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memdel.c.o: ../libftprintf/libft/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memdel.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memdel.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memdel.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memdel.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memdel.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memdel.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memdel.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memdel.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memdel.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memdel.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memdel.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memdel.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memmove.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memmove.c.o: ../libftprintf/libft/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memmove.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memmove.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memmove.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memmove.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memmove.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memmove.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memmove.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memmove.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memmove.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memmove.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memmove.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memmove.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memmove.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memmove.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memmove.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memmove.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memmove.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memmove.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memset.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memset.c.o: ../libftprintf/libft/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memset.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memset.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memset.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memset.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memset.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memset.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memset.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memset.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memset.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memset.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memset.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_memset.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memset.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_memset.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_memset.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar.c.o: ../libftprintf/libft/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putchar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putchar.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putchar.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putchar.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putchar.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putchar.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar_fd.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar_fd.c.o: ../libftprintf/libft/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar_fd.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putchar_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar_fd.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putchar_fd.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putchar_fd.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putchar_fd.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar_fd.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putchar_fd.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putchar_fd.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putchar_fd.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl.c.o: ../libftprintf/libft/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putendl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putendl.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putendl.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putendl.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putendl.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putendl.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl_fd.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl_fd.c.o: ../libftprintf/libft/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl_fd.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putendl_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl_fd.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putendl_fd.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putendl_fd.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putendl_fd.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl_fd.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putendl_fd.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putendl_fd.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putendl_fd.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr.c.o: ../libftprintf/libft/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putnbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putnbr.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putnbr.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putnbr.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putnbr.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putnbr.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr_fd.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr_fd.c.o: ../libftprintf/libft/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr_fd.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putnbr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr_fd.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putnbr_fd.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putnbr_fd.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putnbr_fd.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr_fd.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putnbr_fd.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putnbr_fd.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putnbr_fd.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr.c.o: ../libftprintf/libft/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putstr.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putstr.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putstr.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putstr.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putstr.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr_fd.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr_fd.c.o: ../libftprintf/libft/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr_fd.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putstr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr_fd.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putstr_fd.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putstr_fd.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putstr_fd.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr_fd.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_putstr_fd.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_putstr_fd.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_putstr_fd.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_sqrt.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_sqrt.c.o: ../libftprintf/libft/ft_sqrt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_sqrt.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_sqrt.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_sqrt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_sqrt.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_sqrt.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_sqrt.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_sqrt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_sqrt.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_sqrt.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_sqrt.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_sqrt.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_sqrt.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_sqrt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_sqrt.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_sqrt.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_sqrt.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_sqrt.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_sqrt.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_allnum.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_allnum.c.o: ../libftprintf/libft/ft_str_allnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_allnum.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_allnum.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_str_allnum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_allnum.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_allnum.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_str_allnum.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_allnum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_allnum.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_str_allnum.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_allnum.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_str_allnum.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_allnum.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_allnum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_allnum.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_str_allnum.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_allnum.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_str_allnum.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_allnum.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_clean_join.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_clean_join.c.o: ../libftprintf/libft/ft_str_clean_join.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_clean_join.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_clean_join.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_str_clean_join.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_clean_join.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_clean_join.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_str_clean_join.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_clean_join.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_clean_join.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_str_clean_join.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_clean_join.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_str_clean_join.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_clean_join.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_clean_join.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_clean_join.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_str_clean_join.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_clean_join.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_str_clean_join.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_str_clean_join.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcat.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcat.c.o: ../libftprintf/libft/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcat.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcat.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcat.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strcat.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcat.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strcat.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strcat.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcat.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcat.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strcat.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strcat.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcat.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strchr.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strchr.c.o: ../libftprintf/libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strchr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strchr.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strchr.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strchr.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strchr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strchr.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strchr.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strchr.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strchr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strchr.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strchr.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strchr.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strclr.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strclr.c.o: ../libftprintf/libft/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strclr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strclr.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strclr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strclr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strclr.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strclr.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strclr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strclr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strclr.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strclr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strclr.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strclr.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strclr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strclr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strclr.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strclr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strclr.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strclr.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcmp.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcmp.c.o: ../libftprintf/libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcmp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcmp.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcmp.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strcmp.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcmp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strcmp.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strcmp.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcmp.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcmp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strcmp.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strcmp.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcmp.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcpy.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcpy.c.o: ../libftprintf/libft/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcpy.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcpy.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strcpy.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strcpy.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strcpy.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcpy.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strcpy.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strcpy.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strcpy.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdel.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdel.c.o: ../libftprintf/libft/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdel.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdel.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdel.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strdel.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdel.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strdel.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strdel.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdel.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdel.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strdel.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strdel.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdel.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdup.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdup.c.o: ../libftprintf/libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdup.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdup.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdup.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdup.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strdup.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdup.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strdup.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdup.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strdup.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdup.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdup.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strdup.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdup.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strdup.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strdup.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strequ.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strequ.c.o: ../libftprintf/libft/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strequ.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strequ.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strequ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strequ.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strequ.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strequ.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strequ.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strequ.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strequ.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strequ.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strequ.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strequ.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strequ.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strequ.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strequ.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strgsort.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strgsort.c.o: ../libftprintf/libft/ft_strgsort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strgsort.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strgsort.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strgsort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strgsort.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strgsort.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strgsort.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strgsort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strgsort.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strgsort.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strgsort.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strgsort.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strgsort.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strgsort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strgsort.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strgsort.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strgsort.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strgsort.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strgsort.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striter.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striter.c.o: ../libftprintf/libft/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striter.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striter.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_striter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striter.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_striter.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striter.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_striter.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striter.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_striter.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striter.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striter.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_striter.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striter.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_striter.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striter.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striteri.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striteri.c.o: ../libftprintf/libft/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striteri.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striteri.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_striteri.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striteri.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striteri.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_striteri.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striteri.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striteri.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_striteri.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striteri.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_striteri.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striteri.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striteri.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striteri.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_striteri.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striteri.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_striteri.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_striteri.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strjoin.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strjoin.c.o: ../libftprintf/libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strjoin.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strjoin.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strjoin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strjoin.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strjoin.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strjoin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strjoin.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strjoin.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strjoin.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strjoin.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strjoin.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strjoin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strjoin.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strjoin.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strjoin.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strjoin.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strjoin.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlcat.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlcat.c.o: ../libftprintf/libft/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlcat.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlcat.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strlcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlcat.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strlcat.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlcat.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strlcat.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlcat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strlcat.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlcat.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlcat.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strlcat.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlcat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strlcat.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlcat.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlen.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlen.c.o: ../libftprintf/libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlen.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlen.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlen.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strlen.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlen.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strlen.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlen.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strlen.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlen.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlen.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strlen.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlen.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strlen.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strlen.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmap.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmap.c.o: ../libftprintf/libft/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmap.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmap.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmap.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strmap.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmap.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strmap.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strmap.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmap.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmap.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strmap.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strmap.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmap.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmapi.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmapi.c.o: ../libftprintf/libft/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmapi.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmapi.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strmapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmapi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmapi.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strmapi.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmapi.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strmapi.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmapi.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strmapi.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmapi.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmapi.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strmapi.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmapi.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strmapi.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strmapi.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncat.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncat.c.o: ../libftprintf/libft/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncat.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncat.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strncat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncat.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strncat.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncat.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strncat.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strncat.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncat.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncat.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strncat.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strncat.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncat.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncmp.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncmp.c.o: ../libftprintf/libft/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncmp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncmp.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strncmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncmp.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strncmp.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncmp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strncmp.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strncmp.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncmp.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncmp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strncmp.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strncmp.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncmp.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncpy.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncpy.c.o: ../libftprintf/libft/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncpy.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strncpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncpy.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strncpy.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strncpy.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strncpy.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncpy.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strncpy.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strncpy.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strncpy.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnequ.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnequ.c.o: ../libftprintf/libft/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnequ.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnequ.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strnequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnequ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnequ.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strnequ.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnequ.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strnequ.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnequ.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strnequ.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnequ.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnequ.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strnequ.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnequ.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strnequ.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnequ.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnew.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnew.c.o: ../libftprintf/libft/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnew.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnew.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnew.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strnew.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnew.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strnew.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnew.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strnew.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnew.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnew.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strnew.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnew.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strnew.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnew.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnstr.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnstr.c.o: ../libftprintf/libft/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnstr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnstr.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strnstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnstr.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strnstr.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnstr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strnstr.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strnstr.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnstr.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnstr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strnstr.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strnstr.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnstr.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnsymb.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnsymb.c.o: ../libftprintf/libft/ft_strnsymb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnsymb.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnsymb.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strnsymb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnsymb.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnsymb.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strnsymb.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnsymb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnsymb.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strnsymb.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnsymb.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strnsymb.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnsymb.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnsymb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnsymb.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strnsymb.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnsymb.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strnsymb.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strnsymb.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrchr.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrchr.c.o: ../libftprintf/libft/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrchr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrchr.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strrchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrchr.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strrchr.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrchr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strrchr.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strrchr.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrchr.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrchr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strrchr.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strrchr.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrchr.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrev.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrev.c.o: ../libftprintf/libft/ft_strrev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrev.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrev.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strrev.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrev.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrev.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strrev.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrev.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrev.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strrev.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrev.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strrev.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrev.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrev.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrev.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strrev.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrev.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strrev.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strrev.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsplit.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsplit.c.o: ../libftprintf/libft/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsplit.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsplit.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsplit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsplit.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strsplit.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsplit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsplit.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strsplit.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsplit.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strsplit.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsplit.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsplit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsplit.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strsplit.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsplit.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strsplit.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsplit.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strstr.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strstr.c.o: ../libftprintf/libft/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strstr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strstr.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strstr.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strstr.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strstr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strstr.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strstr.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strstr.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strstr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strstr.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strstr.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strstr.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub.c.o: ../libftprintf/libft/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strsub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strsub.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strsub.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strsub.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strsub.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strsub.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strswap.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strswap.c.o: ../libftprintf/libft/ft_strswap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strswap.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strswap.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strswap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strswap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strswap.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strswap.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strswap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strswap.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strswap.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strswap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strswap.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strswap.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strswap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strswap.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strswap.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strswap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strswap.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strswap.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strtrim.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strtrim.c.o: ../libftprintf/libft/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strtrim.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strtrim.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strtrim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strtrim.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strtrim.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strtrim.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strtrim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strtrim.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strtrim.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strtrim.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strtrim.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strtrim.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strtrim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strtrim.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strtrim.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strtrim.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strtrim.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strtrim.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_swap.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_swap.c.o: ../libftprintf/libft/ft_swap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_swap.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_swap.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_swap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_swap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_swap.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_swap.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_swap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_swap.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_swap.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_swap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_swap.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_swap.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_swap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_swap.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_swap.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_swap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_swap.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_swap.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_tolower.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_tolower.c.o: ../libftprintf/libft/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_tolower.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_tolower.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_tolower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_tolower.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_tolower.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_tolower.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_tolower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_tolower.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_tolower.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_tolower.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_tolower.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_tolower.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_tolower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_tolower.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_tolower.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_tolower.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_tolower.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_tolower.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_toupper.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_toupper.c.o: ../libftprintf/libft/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_toupper.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_toupper.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_toupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_toupper.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_toupper.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_toupper.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_toupper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_toupper.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_toupper.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_toupper.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_toupper.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_toupper.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_toupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_toupper.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_toupper.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_toupper.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_toupper.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_toupper.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_word_count.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_word_count.c.o: ../libftprintf/libft/ft_word_count.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_word_count.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_word_count.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_word_count.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_word_count.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_word_count.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_word_count.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_word_count.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_word_count.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_word_count.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_word_count.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_word_count.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_word_count.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_word_count.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_word_count.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_word_count.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_word_count.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_word_count.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_word_count.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/get_next_line.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/get_next_line.c.o: ../libftprintf/libft/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/get_next_line.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/get_next_line.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/get_next_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/get_next_line.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/get_next_line.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/get_next_line.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/get_next_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/get_next_line.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/get_next_line.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/get_next_line.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/get_next_line.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/get_next_line.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/get_next_line.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/get_next_line.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/get_next_line.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/get_next_line.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/get_next_line.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_apply_flags.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/ft_apply_flags.c.o: ../libftprintf/ft_apply_flags.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_apply_flags.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_apply_flags.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/ft_apply_flags.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_apply_flags.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_apply_flags.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_apply_flags.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_apply_flags.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/ft_apply_flags.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/ft_apply_flags.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_apply_flags.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_apply_flags.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_apply_flags.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_apply_flags.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/ft_apply_flags.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/ft_apply_flags.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_apply_flags.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_apply_flags.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_apply_flags.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_flags.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/ft_flags.c.o: ../libftprintf/ft_flags.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_flags.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_flags.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/ft_flags.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_flags.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_flags.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_flags.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_flags.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/ft_flags.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/ft_flags.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_flags.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_flags.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_flags.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_flags.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/ft_flags.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/ft_flags.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_flags.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_flags.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_flags.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_get_numbers.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/ft_get_numbers.c.o: ../libftprintf/ft_get_numbers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_get_numbers.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_get_numbers.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/ft_get_numbers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_get_numbers.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_get_numbers.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_get_numbers.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_get_numbers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/ft_get_numbers.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/ft_get_numbers.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_get_numbers.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_get_numbers.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_get_numbers.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_get_numbers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/ft_get_numbers.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/ft_get_numbers.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_get_numbers.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_get_numbers.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_get_numbers.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unichar.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unichar.c.o: ../libftprintf/ft_get_unichar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unichar.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unichar.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/ft_get_unichar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unichar.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unichar.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_get_unichar.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unichar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unichar.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/ft_get_unichar.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unichar.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_get_unichar.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unichar.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unichar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unichar.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/ft_get_unichar.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unichar.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_get_unichar.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unichar.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unistr.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unistr.c.o: ../libftprintf/ft_get_unistr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unistr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unistr.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/ft_get_unistr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unistr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unistr.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_get_unistr.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unistr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unistr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/ft_get_unistr.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unistr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_get_unistr.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unistr.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unistr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unistr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/ft_get_unistr.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unistr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_get_unistr.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unistr.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unsign_ptr_bin.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unsign_ptr_bin.c.o: ../libftprintf/ft_get_unsign_ptr_bin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unsign_ptr_bin.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unsign_ptr_bin.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/ft_get_unsign_ptr_bin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unsign_ptr_bin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unsign_ptr_bin.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_get_unsign_ptr_bin.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unsign_ptr_bin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unsign_ptr_bin.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/ft_get_unsign_ptr_bin.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unsign_ptr_bin.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_get_unsign_ptr_bin.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unsign_ptr_bin.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unsign_ptr_bin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unsign_ptr_bin.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/ft_get_unsign_ptr_bin.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unsign_ptr_bin.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_get_unsign_ptr_bin.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_get_unsign_ptr_bin.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_parse_printf.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/ft_parse_printf.c.o: ../libftprintf/ft_parse_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_parse_printf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_parse_printf.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/ft_parse_printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_parse_printf.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_parse_printf.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_parse_printf.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_parse_printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/ft_parse_printf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/ft_parse_printf.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_parse_printf.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_parse_printf.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_parse_printf.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_parse_printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/ft_parse_printf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/ft_parse_printf.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_parse_printf.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_parse_printf.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_parse_printf.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_for_nonstring.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_for_nonstring.c.o: ../libftprintf/ft_prec_for_nonstring.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_for_nonstring.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_for_nonstring.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/ft_prec_for_nonstring.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_for_nonstring.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_for_nonstring.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_prec_for_nonstring.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_for_nonstring.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_for_nonstring.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/ft_prec_for_nonstring.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_for_nonstring.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_prec_for_nonstring.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_for_nonstring.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_for_nonstring.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_for_nonstring.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/ft_prec_for_nonstring.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_for_nonstring.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_prec_for_nonstring.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_for_nonstring.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_width.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_width.c.o: ../libftprintf/ft_prec_width.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_width.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_width.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/ft_prec_width.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_width.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_width.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_prec_width.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_width.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_width.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/ft_prec_width.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_width.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_prec_width.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_width.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_width.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_width.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/ft_prec_width.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_width.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_prec_width.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_prec_width.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_printf.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/ft_printf.c.o: ../libftprintf/ft_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_printf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_printf.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/ft_printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_printf.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_printf.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_printf.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/ft_printf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/ft_printf.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_printf.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_printf.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_printf.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/ft_printf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/ft_printf.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_printf.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_printf.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_printf.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_printf_fd.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/ft_printf_fd.c.o: ../libftprintf/ft_printf_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_printf_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_printf_fd.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/ft_printf_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_printf_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_printf_fd.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_printf_fd.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_printf_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/ft_printf_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/ft_printf_fd.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_printf_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_printf_fd.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_printf_fd.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_printf_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/ft_printf_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/ft_printf_fd.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_printf_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_printf_fd.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_printf_fd.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_sharp_octal_hexa.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/ft_sharp_octal_hexa.c.o: ../libftprintf/ft_sharp_octal_hexa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_sharp_octal_hexa.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_sharp_octal_hexa.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/ft_sharp_octal_hexa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_sharp_octal_hexa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_sharp_octal_hexa.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_sharp_octal_hexa.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_sharp_octal_hexa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/ft_sharp_octal_hexa.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/ft_sharp_octal_hexa.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_sharp_octal_hexa.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_sharp_octal_hexa.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_sharp_octal_hexa.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_sharp_octal_hexa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/ft_sharp_octal_hexa.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/ft_sharp_octal_hexa.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_sharp_octal_hexa.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_sharp_octal_hexa.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_sharp_octal_hexa.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_typical_or_unicode_arg.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/ft_typical_or_unicode_arg.c.o: ../libftprintf/ft_typical_or_unicode_arg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_typical_or_unicode_arg.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_typical_or_unicode_arg.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/ft_typical_or_unicode_arg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_typical_or_unicode_arg.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_typical_or_unicode_arg.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_typical_or_unicode_arg.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_typical_or_unicode_arg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/ft_typical_or_unicode_arg.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/ft_typical_or_unicode_arg.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_typical_or_unicode_arg.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_typical_or_unicode_arg.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_typical_or_unicode_arg.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_typical_or_unicode_arg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/ft_typical_or_unicode_arg.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/ft_typical_or_unicode_arg.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_typical_or_unicode_arg.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_typical_or_unicode_arg.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_typical_or_unicode_arg.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_zero_nonptr.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/ft_zero_nonptr.c.o: ../libftprintf/ft_zero_nonptr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_zero_nonptr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_zero_nonptr.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/ft_zero_nonptr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/ft_zero_nonptr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/ft_zero_nonptr.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_zero_nonptr.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_zero_nonptr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/ft_zero_nonptr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/ft_zero_nonptr.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_zero_nonptr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_zero_nonptr.c > CMakeFiles/Wolf3D.dir/libftprintf/ft_zero_nonptr.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/ft_zero_nonptr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/ft_zero_nonptr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/ft_zero_nonptr.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_zero_nonptr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/ft_zero_nonptr.c -o CMakeFiles/Wolf3D.dir/libftprintf/ft_zero_nonptr.c.s
 
 CMakeFiles/Wolf3D.dir/main.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/Wolf3D.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/main.c.o   -c /Users/andrii/Develop/Wolf3D/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/Wolf3D.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/main.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/main.c
 
 CMakeFiles/Wolf3D.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/main.c > CMakeFiles/Wolf3D.dir/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/main.c > CMakeFiles/Wolf3D.dir/main.c.i
 
 CMakeFiles/Wolf3D.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/main.c -o CMakeFiles/Wolf3D.dir/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/main.c -o CMakeFiles/Wolf3D.dir/main.c.s
 
 CMakeFiles/Wolf3D.dir/init_params.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/init_params.c.o: ../init_params.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/Wolf3D.dir/init_params.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/init_params.c.o   -c /Users/andrii/Develop/Wolf3D/init_params.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/Wolf3D.dir/init_params.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/init_params.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/init_params.c
 
 CMakeFiles/Wolf3D.dir/init_params.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/init_params.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/init_params.c > CMakeFiles/Wolf3D.dir/init_params.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/init_params.c > CMakeFiles/Wolf3D.dir/init_params.c.i
 
 CMakeFiles/Wolf3D.dir/init_params.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/init_params.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/init_params.c -o CMakeFiles/Wolf3D.dir/init_params.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/init_params.c -o CMakeFiles/Wolf3D.dir/init_params.c.s
 
 CMakeFiles/Wolf3D.dir/read_map.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/read_map.c.o: ../read_map.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/Wolf3D.dir/read_map.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/read_map.c.o   -c /Users/andrii/Develop/Wolf3D/read_map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/Wolf3D.dir/read_map.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/read_map.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/read_map.c
 
 CMakeFiles/Wolf3D.dir/read_map.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/read_map.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/read_map.c > CMakeFiles/Wolf3D.dir/read_map.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/read_map.c > CMakeFiles/Wolf3D.dir/read_map.c.i
 
 CMakeFiles/Wolf3D.dir/read_map.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/read_map.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/read_map.c -o CMakeFiles/Wolf3D.dir/read_map.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/read_map.c -o CMakeFiles/Wolf3D.dir/read_map.c.s
 
 CMakeFiles/Wolf3D.dir/handle_map_error.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/handle_map_error.c.o: ../handle_map_error.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/Wolf3D.dir/handle_map_error.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/handle_map_error.c.o   -c /Users/andrii/Develop/Wolf3D/handle_map_error.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/Wolf3D.dir/handle_map_error.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/handle_map_error.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/handle_map_error.c
 
 CMakeFiles/Wolf3D.dir/handle_map_error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/handle_map_error.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/handle_map_error.c > CMakeFiles/Wolf3D.dir/handle_map_error.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/handle_map_error.c > CMakeFiles/Wolf3D.dir/handle_map_error.c.i
 
 CMakeFiles/Wolf3D.dir/handle_map_error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/handle_map_error.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/handle_map_error.c -o CMakeFiles/Wolf3D.dir/handle_map_error.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/handle_map_error.c -o CMakeFiles/Wolf3D.dir/handle_map_error.c.s
 
 CMakeFiles/Wolf3D.dir/init_position.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/init_position.c.o: ../init_position.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/Wolf3D.dir/init_position.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/init_position.c.o   -c /Users/andrii/Develop/Wolf3D/init_position.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/Wolf3D.dir/init_position.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/init_position.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/init_position.c
 
 CMakeFiles/Wolf3D.dir/init_position.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/init_position.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/init_position.c > CMakeFiles/Wolf3D.dir/init_position.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/init_position.c > CMakeFiles/Wolf3D.dir/init_position.c.i
 
 CMakeFiles/Wolf3D.dir/init_position.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/init_position.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/init_position.c -o CMakeFiles/Wolf3D.dir/init_position.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/init_position.c -o CMakeFiles/Wolf3D.dir/init_position.c.s
 
 CMakeFiles/Wolf3D.dir/init_sdl.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/init_sdl.c.o: ../init_sdl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/Wolf3D.dir/init_sdl.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/init_sdl.c.o   -c /Users/andrii/Develop/Wolf3D/init_sdl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/Wolf3D.dir/init_sdl.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/init_sdl.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/init_sdl.c
 
 CMakeFiles/Wolf3D.dir/init_sdl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/init_sdl.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/init_sdl.c > CMakeFiles/Wolf3D.dir/init_sdl.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/init_sdl.c > CMakeFiles/Wolf3D.dir/init_sdl.c.i
 
 CMakeFiles/Wolf3D.dir/init_sdl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/init_sdl.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/init_sdl.c -o CMakeFiles/Wolf3D.dir/init_sdl.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/init_sdl.c -o CMakeFiles/Wolf3D.dir/init_sdl.c.s
 
 CMakeFiles/Wolf3D.dir/handle_error.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/handle_error.c.o: ../handle_error.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/Wolf3D.dir/handle_error.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/handle_error.c.o   -c /Users/andrii/Develop/Wolf3D/handle_error.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/Wolf3D.dir/handle_error.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/handle_error.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/handle_error.c
 
 CMakeFiles/Wolf3D.dir/handle_error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/handle_error.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/handle_error.c > CMakeFiles/Wolf3D.dir/handle_error.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/handle_error.c > CMakeFiles/Wolf3D.dir/handle_error.c.i
 
 CMakeFiles/Wolf3D.dir/handle_error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/handle_error.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/handle_error.c -o CMakeFiles/Wolf3D.dir/handle_error.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/handle_error.c -o CMakeFiles/Wolf3D.dir/handle_error.c.s
 
 CMakeFiles/Wolf3D.dir/check_arguments.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/check_arguments.c.o: ../check_arguments.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/Wolf3D.dir/check_arguments.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/check_arguments.c.o   -c /Users/andrii/Develop/Wolf3D/check_arguments.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/Wolf3D.dir/check_arguments.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/check_arguments.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/check_arguments.c
 
 CMakeFiles/Wolf3D.dir/check_arguments.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/check_arguments.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/check_arguments.c > CMakeFiles/Wolf3D.dir/check_arguments.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/check_arguments.c > CMakeFiles/Wolf3D.dir/check_arguments.c.i
 
 CMakeFiles/Wolf3D.dir/check_arguments.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/check_arguments.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/check_arguments.c -o CMakeFiles/Wolf3D.dir/check_arguments.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/check_arguments.c -o CMakeFiles/Wolf3D.dir/check_arguments.c.s
 
 CMakeFiles/Wolf3D.dir/check_event.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/check_event.c.o: ../check_event.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/Wolf3D.dir/check_event.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/check_event.c.o   -c /Users/andrii/Develop/Wolf3D/check_event.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/Wolf3D.dir/check_event.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/check_event.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/check_event.c
 
 CMakeFiles/Wolf3D.dir/check_event.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/check_event.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/check_event.c > CMakeFiles/Wolf3D.dir/check_event.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/check_event.c > CMakeFiles/Wolf3D.dir/check_event.c.i
 
 CMakeFiles/Wolf3D.dir/check_event.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/check_event.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/check_event.c -o CMakeFiles/Wolf3D.dir/check_event.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/check_event.c -o CMakeFiles/Wolf3D.dir/check_event.c.s
 
 CMakeFiles/Wolf3D.dir/make_calculations.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/make_calculations.c.o: ../make_calculations.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/Wolf3D.dir/make_calculations.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/make_calculations.c.o   -c /Users/andrii/Develop/Wolf3D/make_calculations.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/Wolf3D.dir/make_calculations.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/make_calculations.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/make_calculations.c
 
 CMakeFiles/Wolf3D.dir/make_calculations.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/make_calculations.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/make_calculations.c > CMakeFiles/Wolf3D.dir/make_calculations.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/make_calculations.c > CMakeFiles/Wolf3D.dir/make_calculations.c.i
 
 CMakeFiles/Wolf3D.dir/make_calculations.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/make_calculations.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/make_calculations.c -o CMakeFiles/Wolf3D.dir/make_calculations.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/make_calculations.c -o CMakeFiles/Wolf3D.dir/make_calculations.c.s
 
 CMakeFiles/Wolf3D.dir/height_for_column.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/height_for_column.c.o: ../height_for_column.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/Wolf3D.dir/height_for_column.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/height_for_column.c.o   -c /Users/andrii/Develop/Wolf3D/height_for_column.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/Wolf3D.dir/height_for_column.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/height_for_column.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/height_for_column.c
 
 CMakeFiles/Wolf3D.dir/height_for_column.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/height_for_column.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/height_for_column.c > CMakeFiles/Wolf3D.dir/height_for_column.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/height_for_column.c > CMakeFiles/Wolf3D.dir/height_for_column.c.i
 
 CMakeFiles/Wolf3D.dir/height_for_column.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/height_for_column.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/height_for_column.c -o CMakeFiles/Wolf3D.dir/height_for_column.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/height_for_column.c -o CMakeFiles/Wolf3D.dir/height_for_column.c.s
 
 CMakeFiles/Wolf3D.dir/route_events.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/route_events.c.o: ../route_events.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/Wolf3D.dir/route_events.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/route_events.c.o   -c /Users/andrii/Develop/Wolf3D/route_events.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/Wolf3D.dir/route_events.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/route_events.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/route_events.c
 
 CMakeFiles/Wolf3D.dir/route_events.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/route_events.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/route_events.c > CMakeFiles/Wolf3D.dir/route_events.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/route_events.c > CMakeFiles/Wolf3D.dir/route_events.c.i
 
 CMakeFiles/Wolf3D.dir/route_events.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/route_events.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/route_events.c -o CMakeFiles/Wolf3D.dir/route_events.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/route_events.c -o CMakeFiles/Wolf3D.dir/route_events.c.s
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub_chr.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub_chr.c.o: ../libftprintf/libft/ft_strsub_chr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub_chr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub_chr.c.o   -c /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strsub_chr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub_chr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub_chr.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strsub_chr.c
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub_chr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub_chr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strsub_chr.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub_chr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strsub_chr.c > CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub_chr.c.i
 
 CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub_chr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub_chr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/libftprintf/libft/ft_strsub_chr.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub_chr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/ft_strsub_chr.c -o CMakeFiles/Wolf3D.dir/libftprintf/libft/ft_strsub_chr.c.s
 
 CMakeFiles/Wolf3D.dir/parse_map.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/parse_map.c.o: ../parse_map.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/Wolf3D.dir/parse_map.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/parse_map.c.o   -c /Users/andrii/Develop/Wolf3D/parse_map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/Wolf3D.dir/parse_map.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/parse_map.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/parse_map.c
 
 CMakeFiles/Wolf3D.dir/parse_map.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/parse_map.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/parse_map.c > CMakeFiles/Wolf3D.dir/parse_map.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/parse_map.c > CMakeFiles/Wolf3D.dir/parse_map.c.i
 
 CMakeFiles/Wolf3D.dir/parse_map.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/parse_map.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/parse_map.c -o CMakeFiles/Wolf3D.dir/parse_map.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/parse_map.c -o CMakeFiles/Wolf3D.dir/parse_map.c.s
 
 CMakeFiles/Wolf3D.dir/add_perimeter_walls.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/add_perimeter_walls.c.o: ../add_perimeter_walls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/Wolf3D.dir/add_perimeter_walls.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/add_perimeter_walls.c.o   -c /Users/andrii/Develop/Wolf3D/add_perimeter_walls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/Wolf3D.dir/add_perimeter_walls.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/add_perimeter_walls.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/add_perimeter_walls.c
 
 CMakeFiles/Wolf3D.dir/add_perimeter_walls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/add_perimeter_walls.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/add_perimeter_walls.c > CMakeFiles/Wolf3D.dir/add_perimeter_walls.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/add_perimeter_walls.c > CMakeFiles/Wolf3D.dir/add_perimeter_walls.c.i
 
 CMakeFiles/Wolf3D.dir/add_perimeter_walls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/add_perimeter_walls.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/add_perimeter_walls.c -o CMakeFiles/Wolf3D.dir/add_perimeter_walls.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/add_perimeter_walls.c -o CMakeFiles/Wolf3D.dir/add_perimeter_walls.c.s
 
 CMakeFiles/Wolf3D.dir/set_wall_color.c.o: CMakeFiles/Wolf3D.dir/flags.make
 CMakeFiles/Wolf3D.dir/set_wall_color.c.o: ../set_wall_color.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/Wolf3D.dir/set_wall_color.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/set_wall_color.c.o   -c /Users/andrii/Develop/Wolf3D/set_wall_color.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/Wolf3D.dir/set_wall_color.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolf3D.dir/set_wall_color.c.o   -c /Users/abodnar/UNT/Projects/Wolf3D/set_wall_color.c
 
 CMakeFiles/Wolf3D.dir/set_wall_color.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolf3D.dir/set_wall_color.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrii/Develop/Wolf3D/set_wall_color.c > CMakeFiles/Wolf3D.dir/set_wall_color.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/abodnar/UNT/Projects/Wolf3D/set_wall_color.c > CMakeFiles/Wolf3D.dir/set_wall_color.c.i
 
 CMakeFiles/Wolf3D.dir/set_wall_color.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolf3D.dir/set_wall_color.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrii/Develop/Wolf3D/set_wall_color.c -o CMakeFiles/Wolf3D.dir/set_wall_color.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/abodnar/UNT/Projects/Wolf3D/set_wall_color.c -o CMakeFiles/Wolf3D.dir/set_wall_color.c.s
 
 # Object files for target Wolf3D
 Wolf3D_OBJECTS = \
@@ -1564,8 +1564,9 @@ Wolf3D: CMakeFiles/Wolf3D.dir/parse_map.c.o
 Wolf3D: CMakeFiles/Wolf3D.dir/add_perimeter_walls.c.o
 Wolf3D: CMakeFiles/Wolf3D.dir/set_wall_color.c.o
 Wolf3D: CMakeFiles/Wolf3D.dir/build.make
+Wolf3D: /Users/abodnar/homebrew/Cellar/sdl2/2.0.9_1/lib/libSDL2.dylib
 Wolf3D: CMakeFiles/Wolf3D.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Linking C executable Wolf3D"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Linking C executable Wolf3D"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Wolf3D.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1578,6 +1579,6 @@ CMakeFiles/Wolf3D.dir/clean:
 .PHONY : CMakeFiles/Wolf3D.dir/clean
 
 CMakeFiles/Wolf3D.dir/depend:
-	cd /Users/andrii/Develop/Wolf3D/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/andrii/Develop/Wolf3D /Users/andrii/Develop/Wolf3D /Users/andrii/Develop/Wolf3D/cmake-build-debug /Users/andrii/Develop/Wolf3D/cmake-build-debug /Users/andrii/Develop/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/abodnar/UNT/Projects/Wolf3D /Users/abodnar/UNT/Projects/Wolf3D /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug /Users/abodnar/UNT/Projects/Wolf3D/cmake-build-debug/CMakeFiles/Wolf3D.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Wolf3D.dir/depend
 

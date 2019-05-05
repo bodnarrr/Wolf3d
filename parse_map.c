@@ -1,15 +1,23 @@
-//
-// Created by Andrii Bodnar on 2019-05-04.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   parse_map.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: abodnar <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/05/05 14:10:32 by abodnar           #+#    #+#             */
+/*   Updated: 2019/05/05 14:10:32 by abodnar          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "wolf3d.h"
 
-static int 	*line_to_int_arr(char *line)
+static int	*line_to_int_arr(char *line)
 {
 	char	**splt;
-	int 	i;
-	int 	j;
-	int 	*res;
+	int		i;
+	int		j;
+	int		*res;
 
 	splt = ft_strsplit(line, ' ');
 	i = 0;
@@ -27,11 +35,11 @@ static int 	*line_to_int_arr(char *line)
 	return (res);
 }
 
-void	parse_map(t_wolf *params, char *raw_map)
+void		parse_map(t_wolf *params, char *raw_map)
 {
-	int 	i;
+	int		i;
 	char	*map_cpy;
-	char 	*line;
+	char	*line;
 
 	params->map = (int**)ft_memalloc(sizeof(int*) * (params->map_height + 1));
 	map_cpy = raw_map;
