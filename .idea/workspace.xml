@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="Wolf3D" targetName="sdlLibrary" />
       <config projectName="Wolf3D" targetName="Wolf3D" />
     </generated>
   </component>
@@ -12,10 +13,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acf7157b-2923-4006-b9fd-67ea695733fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/check_event.c" beforeDir="false" afterPath="$PROJECT_DIR$/check_event.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/height_for_column.c" beforeDir="false" afterPath="$PROJECT_DIR$/height_for_column.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/route_events.c" beforeDir="false" afterPath="$PROJECT_DIR$/route_events.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wolf3d.h" beforeDir="false" afterPath="$PROJECT_DIR$/wolf3d.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add_perimeter_walls.c" beforeDir="false" afterPath="$PROJECT_DIR$/add_perimeter_walls.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolf3D.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolf3D.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Wolf3D" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Wolf3D" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/read_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/read_map.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,75 +31,73 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/check_event.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/height_for_column.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/make_calculations.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/route_events.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wolf3d.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-              <folding>
-                <element signature="e#928#965#0" expanded="true" />
-                <element signature="e#1218#1236#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/init_position.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="39" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/init_position.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="345">
+                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/parse_map.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="780">
+                  <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/add_perimeter_walls.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="390">
+                  <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/read_map.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1470">
+                  <caret line="98" column="40" lean-forward="true" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wolf3d.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="796">
+                  <caret line="85" column="28" lean-forward="true" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
+                  <folding>
+                    <element signature="e#1101#1155#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/base_map.w3d">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -111,8 +111,10 @@
       <find>map_width</find>
       <find>~</find>
       <find>== 1</find>
-      <find>add_perimeter_walls</find>
       <find>step_x</find>
+      <find>add_perimeter_walls</find>
+      <find>Line:</find>
+      <find>ft_pr</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,28 +130,29 @@
         <option value="$PROJECT_DIR$/abs.c" />
         <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/init_sdl.c" />
-        <option value="$PROJECT_DIR$/init_position.c" />
         <option value="$PROJECT_DIR$/init_params.c" />
-        <option value="$PROJECT_DIR$/libftprintf/libft/ft_strsub_chr.c" />
         <option value="$PROJECT_DIR$/libftprintf/libft/libft.h" />
         <option value="$PROJECT_DIR$/libftprintf/libft/Makefile" />
-        <option value="$PROJECT_DIR$/parse_map.c" />
-        <option value="$PROJECT_DIR$/add_perimeter_walls.c" />
-        <option value="$PROJECT_DIR$/base_map.w3d" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/make_calculations.c" />
-        <option value="$PROJECT_DIR$/read_map.c" />
         <option value="$PROJECT_DIR$/check_event.c" />
-        <option value="$PROJECT_DIR$/wolf3d.h" />
+        <option value="$PROJECT_DIR$/make_calculations.c" />
         <option value="$PROJECT_DIR$/route_events.c" />
+        <option value="$PROJECT_DIR$/set_wall_color.c" />
+        <option value="$PROJECT_DIR$/wolf3d.h" />
+        <option value="$PROJECT_DIR$/init_position.c" />
+        <option value="$PROJECT_DIR$/base_map.w3d" />
+        <option value="$PROJECT_DIR$/libftprintf/libft/ft_strsub_chr.c" />
         <option value="$PROJECT_DIR$/height_for_column.c" />
+        <option value="$PROJECT_DIR$/parse_map.c" />
+        <option value="$PROJECT_DIR$/read_map.c" />
+        <option value="$PROJECT_DIR$/add_perimeter_walls.c" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1396" />
-    <option name="height" value="877" />
+    <option name="width" value="2144" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -174,11 +177,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RunDashboard">
@@ -204,8 +209,14 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sdlLibrary" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Wolf3D" TARGET_NAME="sdlLibrary" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.Build All" />
+      <item itemvalue="CMake Application.sdlLibrary" />
       <item itemvalue="CMake Application.Wolf3D" />
     </list>
   </component>
@@ -228,32 +239,33 @@
       <workItem from="1556736024234" duration="3356000" />
       <workItem from="1556808917034" duration="5000" />
       <workItem from="1556825635827" duration="12557000" />
+      <workItem from="1557054466751" duration="4680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45333000" />
+    <option name="totallyTimeSpent" value="50013000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1396" height="877" extended-state="0" />
+    <frame x="0" y="23" width="2144" height="1416" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22895126" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14938155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26496816" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32930514" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26435044" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.23949045" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.23942599" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.3299363" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32930514" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -264,65 +276,15 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_video.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="129" column="8" selection-start-line="129" selection-start-column="8" selection-end-line="129" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/unistd.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="479" column="5" selection-start-line="479" selection-start-column="5" selection-end-line="479" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_pixels.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="424" column="31" selection-start-line="424" selection-start-column="31" selection-end-line="424" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_events.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="95" column="4" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_scancode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="408" column="2" selection-start-line="408" selection-start-column="2" selection-end-line="408" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_keyboard.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_render.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="206" column="27" selection-start-line="206" selection-start-column="19" selection-end-line="206" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file:///usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL.h" />
+    <entry file="file:///usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_video.h" />
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/unistd.h" />
+    <entry file="file:///usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_pixels.h" />
+    <entry file="file:///usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_events.h" />
+    <entry file="file:///usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_scancode.h" />
+    <entry file="file:///usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_keyboard.h" />
+    <entry file="file:///usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_render.h" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp" />
     <entry file="file://$PROJECT_DIR$/libftprintf/libft/ft_strsplit.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-252" />
@@ -336,13 +298,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_error.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_error.h" />
     <entry file="file://$PROJECT_DIR$/check_arguments.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -357,35 +313,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include/__clang_cuda_math_forward_declares.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/stdlib.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1093">
-          <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include/__clang_cuda_cmath.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2830">
-          <caret line="219" column="45" lean-forward="true" selection-start-line="219" selection-start-column="45" selection-end-line="219" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include/__clang_cuda_math_forward_declares.h" />
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/stdlib.h" />
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include/__clang_cuda_cmath.h" />
     <entry file="file://$PROJECT_DIR$/abs.c" />
-    <entry file="file:///usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_surface.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="74" column="10" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_surface.h" />
     <entry file="file://$PROJECT_DIR$/init_sdl.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -421,13 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libftprintf/libft/ft_strsub_chr.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libftprintf/libft/ft_atoi.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -442,38 +367,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parse_map.c">
+    <entry file="file://$PROJECT_DIR$/route_events.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        <state relative-caret-position="104">
+          <caret line="7" column="80" lean-forward="true" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/add_perimeter_walls.c">
+    <entry file="file://$PROJECT_DIR$/make_calculations.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base_map.w3d">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read_map.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="75" column="10" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/init_position.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="39" />
+        <state relative-caret-position="706">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -484,24 +388,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/make_calculations.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wolf3d.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-          <folding>
-            <element signature="e#928#965#0" expanded="true" />
-            <element signature="e#1218#1236#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -509,17 +395,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/route_events.c">
+    <entry file="file://$PROJECT_DIR$/wolf3d.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="85" column="28" lean-forward="true" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
+          <folding>
+            <element signature="e#1101#1155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init_position.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libftprintf/libft/ft_strsub_chr.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_map.w3d">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/set_wall_color.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/height_for_column.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+        <state relative-caret-position="1080">
+          <caret line="72" column="36" lean-forward="true" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse_map.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_map.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="98" column="40" lean-forward="true" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_perimeter_walls.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
         </state>
       </provider>
     </entry>

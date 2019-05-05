@@ -12,19 +12,19 @@
 
 #include "wolf3d.h"
 
-static bool	check_border(int x, int y, int **map)
+static bool	check_border(int y, int x, int **map)
 {
 	int	i;
 
 	i = 0;
-	while (map[x - 1][i] != -1)
+	while (map[y - 1][i] != -1)
 		i++;
-	if (i <= y)
+	if (i <= x)
 		return (TRUE);
 	i = 0;
-	while (map[x + 1][i] != -1)
+	while (map[y + 1][i] != -1)
 		i++;
-	if (i <= y)
+	if (i <= x)
 		return (TRUE);
 	return (FALSE);
 }

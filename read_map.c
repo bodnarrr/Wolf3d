@@ -101,6 +101,22 @@ bool		read_map(t_wolf *params, char *input)
 	parse_map(params, raw_map);
 	ft_strdel(&raw_map);
 	add_perimeter_walls(params->map);
+
+	int i, j;
+
+	i = 0;
+	while (params->map[i])
+	{
+		j = 0;
+		while (params->map[i][j] != -1)
+		{
+			ft_printf("%d ", params->map[i][j]);
+			j++;
+		}
+		ft_printf("\n");
+		i++;
+	}
+
 	if (find_empty_position(params, params->map) == FALSE)
 		return (FALSE);
 	return (TRUE);
