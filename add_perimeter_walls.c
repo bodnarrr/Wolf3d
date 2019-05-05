@@ -12,6 +12,23 @@
 
 #include "wolf3d.h"
 
+static bool	check_border(int x, int y, int **map)
+{
+	int	i;
+
+	i = 0;
+	while (map[x - 1][i] != -1)
+		i++;
+	if (i <= y)
+		return (TRUE);
+	i = 0;
+	while (map[x + 1][i] != -1)
+		i++;
+	if (i <= y)
+		return (TRUE);
+	return (FALSE);
+}
+
 void	add_perimeter_walls(int **map)
 {
 	int	i;
@@ -22,7 +39,11 @@ void	add_perimeter_walls(int **map)
 	{
 		j = -1;
 		while (map[i][++j] != -1)
-			if (i == 0 || map[i + 1] == NULL || j == 0 || map[i][j + 1] == -1)
+			if (i == 0
+			|| map[i + 1] == NULL
+			|| j == 0
+			|| map[i][j + 1] == -1
+			|| check_border(i, j, map))
 				map[i][j] = 1;
 	}
 }

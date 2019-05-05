@@ -12,6 +12,31 @@
 
 #include "wolf3d.h"
 
+static bool	find_empty_position(t_wolf *params, int **map)
+{
+	int	i;
+	int j;
+
+	i = 0;
+	while (map[i])
+	{
+		j = 0;
+		while (map[i][j] != -1)
+		{
+			if (map[i][j] == 0)
+			{
+				params->pos_info.pos_y = i;
+				params->pos_info.pos_x = j;
+				return (TRUE);
+			}
+			j++;
+		}
+		i++;
+	}
+	params->error = ft_strdup("No position for player on map!\n");
+	return (FALSE);
+}
+
 static bool	check_map(t_wolf *params, char *raw_map)
 {
 	char	*symbols;
@@ -76,5 +101,7 @@ bool		read_map(t_wolf *params, char *input)
 	parse_map(params, raw_map);
 	ft_strdel(&raw_map);
 	add_perimeter_walls(params->map);
+	if (find_empty_position(params, params->map) == FALSE)
+		return (FALSE);
 	return (TRUE);
 }

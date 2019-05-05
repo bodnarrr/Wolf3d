@@ -44,7 +44,7 @@ void		parse_map(t_wolf *params, char *raw_map)
 	params->map = (int**)ft_memalloc(sizeof(int*) * (params->map_height + 1));
 	map_cpy = raw_map;
 	i = -1;
-	while (++i < params->map_height)
+	while (++i <= params->map_height)
 	{
 		line = ft_strsub_chr(map_cpy, '\n');
 		params->map[i] = line_to_int_arr(line);
