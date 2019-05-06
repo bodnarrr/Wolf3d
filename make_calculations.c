@@ -12,6 +12,34 @@
 
 #include "wolf3d.h"
 
+static int	make_brighter(int color)
+{
+	double	brightness;
+	int		red;
+	int		green;
+	int		blue;
+	int		result;
+
+	brightness = 0.99;
+	red = (int)((double)(color & 0xFF0000) * brightness);
+	green = (int)((double)(color & 0x00FF00) * brightness);
+	blue = (int)((double)(color & 0x0000FF) * brightness);
+	result = red | green | blue;
+	return (result);
+}
+
+static int	choose_color(int y, t_wolf *params)
+{
+	int	res;
+
+	res = params->side ? params->wall_color : make_brighter(params->wall_color);
+	if (params->side)
+		res = y % 3 == 0 ? res * 2 : res;
+	else
+		res = y % 30 < 5 ? res * 2 : res;
+	return (res);
+}
+
 static void	draw_column(int x, int height, t_wolf *params)
 {
 	int	start;
@@ -30,9 +58,7 @@ static void	draw_column(int x, int height, t_wolf *params)
 		else if (i > start + height)
 			pixels[pos] = GROUND;
 		else
-			pixels[pos] = params->side
-					? params->wall_color
-					: (params->wall_color & 0xFFBFFFFF);
+			pixels[pos] = choose_color(pos, params);
 	}
 }
 

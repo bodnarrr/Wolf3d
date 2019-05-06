@@ -33,7 +33,7 @@ static bool	find_empty_position(t_wolf *params, int **map)
 		}
 		i++;
 	}
-	params->error = ft_strdup("No position for player on map!\n");
+	params->error = ft_strdup("No position for player on map!");
 	return (FALSE);
 }
 

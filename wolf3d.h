@@ -14,10 +14,8 @@
 # define WOLF3D_H
 
 # include "libftprintf/libftprintf.h"
-//# include "/usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL.h"
-//# include "/usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL_events.h"
-# include "/Users/abodnar/homebrew/include/SDL2/SDL.h"
-# include "/Users/abodnar/homebrew/include/SDL2/SDL_events.h"
+# include "./frameworks/SDL2/SDL.h"
+# include "./frameworks/SDL2/SDL_events.h"
 # include <math.h>
 
 # include <stdbool.h>
@@ -34,18 +32,18 @@
 # define MIN_ROTATE_SPEED 0
 # define MAX_ROTATE_SPEED 0.12
 
-# define SKY			0x76D7EA
-# define GROUND			0x7A3D1F
+# define SKY			0x2C6177
+# define GROUND			0x77672C
 
-# define INDIGO			0x5780C7
-# define BARBERRY		0xDED717
-# define BLUEWHALE		0x042E4C
-# define REDDEVIL		0x860111
-# define REEF			0xC9FFA2
-# define RIPTIDE		0x8BE6D8
-# define SMOKY			0x605B73
-# define SORBUS			0xFD7C07
-# define NIAGARA		0x0DA590
+# define HONEYFLOWER	0x4D1D77
+# define BLUMINE		0x1D5477
+# define ATOLL			0x0B7568
+# define BORDEAUX		0x5C0120
+# define DELRIO			0xB08D96
+# define CAMARONE		0x015C2A
+# define WASABI			0x7C8C2B
+# define LYNCH			0x5E7587
+# define JUNIPER		0x5E8587
 
 typedef struct	s_sdl
 {
@@ -96,19 +94,19 @@ typedef struct	s_iteration
 	int			hit;
 }				t_iterations;
 
-bool	check_arguments(int ac, t_wolf *params);
-int		handle_error(t_wolf *params);
-void	init_parameters(t_wolf *params);
-bool	read_map(t_wolf *params, char *input);
-int		handle_map_error(t_wolf *params);
-bool	init_sdl(t_wolf *params);
-void	init_position(t_wolf *params);
-void	check_event(SDL_Event event, t_wolf *params);
-void	make_calculations(t_wolf *params);
-int		height_for_column(int x, t_wolf *params);
-void	route_events(SDL_Scancode code, t_wolf *params);
-void	parse_map(t_wolf *params, char *raw_map);
-void	add_perimeter_walls(int **map);
-void	set_wall_color(t_wolf *params, int value);
+bool			check_arguments(int ac, t_wolf *params);
+int				handle_error(t_wolf *params);
+void			init_parameters(t_wolf *params);
+bool			read_map(t_wolf *params, char *input);
+int				handle_map_error(t_wolf *params);
+bool			init_sdl(t_wolf *params);
+void			init_position(t_wolf *params);
+void			check_event(SDL_Event event, t_wolf *params);
+void			make_calculations(t_wolf *params);
+int				height_for_column(int x, t_wolf *params);
+void			route_events(SDL_Scancode code, t_wolf *params);
+void			parse_map(t_wolf *params, char *raw_map);
+void			add_perimeter_walls(int **map);
+void			set_wall_color(t_wolf *params, int value);
 
 #endif
