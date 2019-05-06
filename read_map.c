@@ -80,7 +80,7 @@ static char	*read_file(t_wolf *params, char *input, int fd)
 	cpy = res;
 	while (*cpy)
 	{
-		if (*cpy == '\n')
+		if (*cpy == '\n' && *(cpy + 1) != '\n' && *(cpy + 1) != '\0')
 			params->map_height++;
 		cpy++;
 	}
@@ -89,13 +89,17 @@ static char	*read_file(t_wolf *params, char *input, int fd)
 
 bool		read_map(t_wolf *params, char *input)
 {
-	char *raw_map;
+	char	*raw_map;
+	char	*cpy;
 
 	if ((raw_map = read_file(params, input, 0)) == NULL)
 	{
 		params->error = ft_strdup("Read map error");
 		return (FALSE);
 	}
+	cpy = raw_map;
+	raw_map = ft_strtrim(raw_map);
+	ft_strdel(&cpy);
 	if (check_map(params, raw_map) == FALSE)
 		return (FALSE);
 	parse_map(params, raw_map);

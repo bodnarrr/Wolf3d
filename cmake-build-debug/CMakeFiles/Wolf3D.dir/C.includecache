@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/abodnar/UNT/Projects/Wolf3D/add_perimeter_walls.c
-wolf3d.h
-/Users/abodnar/UNT/Projects/Wolf3D/wolf3d.h
-
 /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/libft.h
 unistd.h
 -
@@ -33,6 +29,10 @@ inttypes.h
 -
 libft/libft.h
 /Users/abodnar/UNT/Projects/Wolf3D/libftprintf/libft/libft.h
+
+/Users/abodnar/UNT/Projects/Wolf3D/read_map.c
+wolf3d.h
+/Users/abodnar/UNT/Projects/Wolf3D/wolf3d.h
 
 /Users/abodnar/UNT/Projects/Wolf3D/wolf3d.h
 libftprintf/libftprintf.h

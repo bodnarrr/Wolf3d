@@ -29,8 +29,8 @@ static int	*line_to_int_arr(char *line)
 		res[j] = ft_atoi(splt[j]);
 	res[j] = -1;
 	i = 0;
-	while (splt[i++])
-		ft_strdel(&splt[i]);
+	while (splt[i])
+		free(splt[i++]);
 	free(splt);
 	return (res);
 }
